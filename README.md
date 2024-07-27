@@ -4,6 +4,8 @@
 
 - [alignment-research-dataset](https://github.com/moirage/alignment-research-dataset)
 
+- can also download the data set [directly](https://the-eye.eu/public/AI/Alignment/moirage_alignment-research-dataset/)
+
 - can also open the content folder with obisidian to view the graph
 
 - for a local build run the following
