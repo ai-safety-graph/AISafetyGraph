@@ -18,6 +18,9 @@ def re_write_cat_yamls(paper, categories_yaml):
     I will provide you with title, abstract and url of an alignment research paper.
     I will also provide you with the current categories (categories_yaml).
     Your task is to re-write the categories_yaml with the new paper added to the appropriate category.
+    You can create new main categories or sub-categories as needed.
+    One paper can be in multiple categories.
+    Aim for conciseness of main and sub-categories.
     DO NOT WRITE ANYTHING OTHER THAN THE CONTENTS of categories_yaml.
     Here is the content of the paper:
     - title: {paper["title"]}
@@ -52,6 +55,9 @@ if __name__ == '__main__':
 
     # starting template for the clustering
     categories_yaml = "./llm_cluster_start.yaml"
+
+    # iterate over 20 papers at the same time instead of single paper
+    
 
     for paper in papers:
         # read the categories yaml as it is

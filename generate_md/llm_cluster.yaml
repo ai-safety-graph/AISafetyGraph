@@ -1,0 +1,148 @@
+- Main_Topic: Value Alignment
+  Sub_Topics:
+    - Sub_Topic: Defining Human Values
+      Research_Papers:
+        - Title: Human Compatible Artificial Intelligence and the Problem of Control
+        - Title: The Value Learning Problem
+    - Sub_Topic: Inverse Reinforcement Learning
+      Research_Papers:
+        - Title: Inverse Reinforcement Learning
+        - Title: Deep Inverse Reinforcement Learning
+        - Title: An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning
+        - Title: Adversarial Soft Advantage Fitting Imitation Learning without Policy Optimization
+        - Title: Learning What To Do by Simulating the Past
+    - Sub_Topic: Cooperative Inverse Reinforcement Learning
+      Research_Papers:
+        - Title: An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning
+    - Sub_Topic: Imitation Learning
+      Research_Papers:
+        - Title: Adversarial Soft Advantage Fitting Imitation Learning without Policy Optimization
+        - Title: Learning What To Do by Simulating the Past
+        - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+    - Sub_Topic: Learning from Human Preferences
+      Research_Papers:
+        - Title: Learning What To Do by Simulating the Past
+    - Sub_Topic: Human-Robot Interaction Planning
+      Research_Papers:
+        - Title: Robot Planning with Mathematical Models of Human State and Action
+    - Sub_Topic: Reward Modeling and Tampering
+      Research_Papers:
+        - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+    - Sub_Topic: Societal Value Alignment
+      Research_Papers:
+        - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
+
+- Main_Topic: Safety and Robustness
+  Sub_Topics:
+    - Sub_Topic: Adversarial Machine Learning
+      Research_Papers:
+        - Title: Explaining and Harnessing Adversarial Examples
+        - Title: Quantifying Perceptual Distortion of Adversarial Examples
+        - Title: Fooling the primate brain with minimal, targeted image manipulation
+        - Title: Transfer of Adversarial Robustness Between Perturbation Types
+    - Sub_Topic: Architecture Search
+      Research_Papers:
+        - Title: DARTS Differentiable Architecture Search
+        - Title: AutoML-Zero Evolving Machine Learning Algorithms From Scratch
+        - Title: Neural Architecture Search with Reinforcement Learning
+    - Sub_Topic: Uncertainty Quantification
+      Research_Papers:
+        - Title: Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift
+    - Sub_Topic: Perceptual Metrics for AI Safety
+      Research_Papers:
+        - Title: Quantifying Perceptual Distortion of Adversarial Examples
+        - Title: Fooling the primate brain with minimal, targeted image manipulation
+    - Sub_Topic: Comparative Studies of Biological and Artificial Vision
+      Research_Papers:
+        - Title: Fooling the primate brain with minimal, targeted image manipulation
+    - Sub_Topic: Safe Exploration
+      Research_Papers:
+        - Title: Verifiably Safe Exploration for End-to-End Reinforcement Learning
+        - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+    - Sub_Topic: Robustness Evaluation
+      Research_Papers:
+        - Title: Transfer of Adversarial Robustness Between Perturbation Types
+    - Sub_Topic: ML Safety Roadmap
+      Research_Papers:
+        - Title: Unsolved Problems in ML Safety
+    - Sub_Topic: Reward Function Security
+      Research_Papers:
+        - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+
+- Main_Topic: AI Foundations and Understanding
+  Sub_Topics:
+    - Sub_Topic: Sequence Models and Causal Reasoning
+      Research_Papers:
+        - Title: Shaking the foundations delusions in sequence models for interaction and control
+    - Sub_Topic: Inverse Models and Feature Learning
+      Research_Papers:
+        - Title: Learning What To Do by Simulating the Past
+    - Sub_Topic: Partially Observable Environments
+      Research_Papers:
+        - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+    - Sub_Topic: Cognitive Modeling for AI
+      Research_Papers:
+        - Title: Robot Planning with Mathematical Models of Human State and Action
+    - Sub_Topic: Large Language Models
+      Research_Papers:
+        - Title: Predictability and Surprise in Large Generative Models
+    - Sub_Topic: Causal Influence Diagrams
+      Research_Papers:
+        - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+    - Sub_Topic: Evolutionary Algorithms for ML
+      Research_Papers:
+        - Title: AutoML-Zero Evolving Machine Learning Algorithms From Scratch
+    - Sub_Topic: Learning Curve Theory
+      Research_Papers:
+        - Title: Learning Curve Theory
+    - Sub_Topic: Agent-Based Modeling
+      Research_Papers:
+        - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
+    - Sub_Topic: Reinforcement Learning for Architecture Design
+      Research_Papers:
+        - Title: Neural Architecture Search with Reinforcement Learning
+
+- Main_Topic: AI Progress Measurement and Evaluation
+  Sub_Topics:
+    - Sub_Topic: Multidimensional AI Progress Assessment
+      Research_Papers:
+        - Title: Accounting for the Neglected Dimensions of AI Progress
+    - Sub_Topic: Benchmarking Exploration in Complex Environments
+      Research_Papers:
+        - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+    - Sub_Topic: Scaling Laws and Model Capabilities
+      Research_Papers:
+        - Title: Predictability and Surprise in Large Generative Models
+        - Title: Learning Curve Theory
+    - Sub_Topic: Automated Algorithm Discovery
+      Research_Papers:
+        - Title: AutoML-Zero Evolving Machine Learning Algorithms From Scratch
+        - Title: Neural Architecture Search with Reinforcement Learning
+
+- Main_Topic: ML Safety
+  Sub_Topics:
+    - Sub_Topic: Robustness
+      Research_Papers:
+        - Title: Unsolved Problems in ML Safety
+    - Sub_Topic: Monitoring
+      Research_Papers:
+        - Title: Unsolved Problems in ML Safety
+    - Sub_Topic: Alignment
+      Research_Papers:
+        - Title: Unsolved Problems in ML Safety
+        - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+    - Sub_Topic: Systemic Safety
+      Research_Papers:
+        - Title: Unsolved Problems in ML Safety
+    - Sub_Topic: Unintended Consequences
+      Research_Papers:
+        - Title: Predictability and Surprise in Large Generative Models
+
+- Main_Topic: AI Governance and Policy
+  Sub_Topics:
+    - Sub_Topic: AI Deployment Challenges
+      Research_Papers:
+        - Title: Predictability and Surprise in Large Generative Models
+    - Sub_Topic: AI Regulation and Norms
+      Research_Papers:
+        - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
