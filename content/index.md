@@ -1,11 +1,23 @@
----
-title: AI ALIGNMENT
----
+Here's the content for the index.md file based on the provided abstracts:
 
-This is the index page.
+# AI Research Topics
 
-One can add links using square brackets:
+## [[Machine-Learning]]
 
-- [Value Alignment](Value_Alignment.md)
-- [Reward Modeling](Reward_Modeling.md)
-- [Inverse Reinforcement Learning](Inverse_Reinforcement_Learning.md)
+## [[Computer-Vision]]
+
+## [[Natural-Language-Processing]]
+
+## [[Reinforcement-Learning]]
+
+## [[AI-Safety]]
+
+## [[Neural-Architecture-Search]]
+
+## [[Adversarial-Machine-Learning]]
+
+## [[Imitation-Learning]]
+
+## [[AI-Ethics]]
+
+## [[Cognitive-Science]]
