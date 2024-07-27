@@ -10,12 +10,8 @@ with open(".env", "r") as f:
 # Initialize the Anthropic client
 client = Anthropic(api_key=api_key)
 
-# paper_abstract_file = "./arxiv_papers_for_llm.md"
-# with open(paper_abstract_file, "r", encoding="utf-8") as f:
-#     all_abstracts = f.read()
 
-# papers yaml
-
+# re-write the categories yaml
 def re_write_cat_yamls(paper, categories_yaml):
     classification_prompt = f"""
     Your task is to categorize AI Alignment research papers.
@@ -54,30 +50,25 @@ if __name__ == '__main__':
     with open(papers_yaml, "r", encoding="utf-8") as f:
         papers = yaml.safe_load(f)
 
-    # paper = papers[0]
-    # read content of yaml as it is
-    categories_yaml = "./llm_cluster.yaml"
-
-    with open(categories_yaml, "r", encoding="utf-8") as f:
-        categories = f.read()
-        categories_yaml = yaml.safe_load(f)
-        
-
-    print(categories)
+    # starting template for the clustering
+    categories_yaml = "./llm_cluster_start.yaml"
 
     for paper in papers:
-        # read the categories yaml
-        categories_yaml = "./llm_cluster.yaml"
+        # read the categories yaml as it is
         with open(categories_yaml, "r", encoding="utf-8") as f:
             categories = f.read()
 
+        # re-write the yaml file
         out = re_write_cat_yamls(paper, categories)
-
+        
+        # ensure its correct
         categories = yaml.safe_load(out)
         
+        # overwrite the categories yaml
         with open("llm_cluster.yaml", "w") as f:
             f.write(out)
 
+        categories_yaml = "llm_cluster.yaml"
 
 
 

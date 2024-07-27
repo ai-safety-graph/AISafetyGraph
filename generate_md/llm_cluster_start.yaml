@@ -1,0 +1,19 @@
+- Main_Topic: Value Alignment
+  Sub_Topics:
+    - Sub_Topic: Defining Human Values
+      Research_Papers:
+        - Title: Human Compatible Artificial Intelligence and the Problem of Control
+        - Title: The Value Learning Problem
+    - Sub_Topic: Inverse Reinforcement Learning
+      Research_Papers:
+        - Title: Inverse Reinforcement Learning
+        - Title: Deep Inverse Reinforcement Learning
+
+- Main_Topic: Safety and Robustness
+  Sub_Topics:
+    - Sub_Topic: Adversarial Machine Learning
+      Research_Papers:
+        - Title: Explaining and Harnessing Adversarial Examples
+    - Sub_Topic: Architecture Search
+      Research_Papers:
+        - Title: DARTS Differentiable Architecture Search
