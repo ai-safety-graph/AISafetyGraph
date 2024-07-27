@@ -59,7 +59,7 @@ with jsonlines.open("dataset/alignment_texts.jsonl", "r") as reader:
     # write all to a yaml file
     # break
 # %%
-def extract_arxiv_papers(output_file):
+def extract_arxiv_papers_to_md(output_file):
     input_file = dataset_file
     with open(output_file, "w", encoding="utf-8") as out_file:
         paper_count = 0
@@ -72,9 +72,6 @@ def extract_arxiv_papers(output_file):
                     
                     title = entry["title"]
                     abstract = entry["abstract"]
-
-
-
                     
                     # Write the paper information in Markdown format
                     out_file.write(f"# {title}\n\n")
@@ -93,7 +90,7 @@ def extract_arxiv_papers(output_file):
 
 # Usage
 # output_file = "arxiv_papers_for_llm.md"
-# extract_arxiv_papers(output_file)
+# extract_arxiv_papers_to_md(output_file)
 
 def extract_arxiv_papers_to_yaml(output_file):
     # extract title, abstract and url
@@ -114,7 +111,12 @@ def extract_arxiv_papers_to_yaml(output_file):
                     # remove colon from title and abstract
                     title = title.replace(":", "")
                     abstract = abstract.replace(":", "")
-                    
+                    title = title.replace("\"", "")
+                    abstract = abstract.replace("\"", "")
+
+                    title = title.replace("`", "")
+                    abstract = abstract.replace("`", "")
+
                     # Write the paper information in YAML format
                     out_file.write(f"- title: {title}\n")
                     out_file.write(f"  abstract: {abstract}\n")
@@ -122,8 +124,8 @@ def extract_arxiv_papers_to_yaml(output_file):
                     
                     paper_count += 1
 
-                    if paper_count >= 20:
-                       break
+                    # if paper_count >= 20:
+                    #    break
                     
                 except KeyError:
                     continue
