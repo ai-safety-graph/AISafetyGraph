@@ -71,7 +71,7 @@ if __name__ == '__main__':
         with open(categories_yaml, "r", encoding="utf-8") as f:
             categories = f.read()
 
-        out = re_write_cat_yamls(paper, categories_yaml)
+        out = re_write_cat_yamls(paper, categories)
 
         categories = yaml.safe_load(out)
         
