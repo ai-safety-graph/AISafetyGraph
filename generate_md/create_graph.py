@@ -14,7 +14,12 @@ def create_file(filename, content):
 
 def create_obsidian_graph(yaml_data, arxiv_data):
     # Create index.md
-    index_content = "# Main Topics\n\n"
+    index_content = """
+        ---\n\n
+        title: AI ALignment Research Graph\n
+        ---\n\n
+        """
+    index_content += "# Main Topics\n\n"
     for topic in yaml_data:
         print(topic)
         main_topic = topic['Main_Topic']
