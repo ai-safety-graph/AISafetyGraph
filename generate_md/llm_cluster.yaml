@@ -12,6 +12,7 @@ categories_yaml:
         - Title: AI Safety and Reproducibility Establishing Robust Foundations for the Neuropsychology of Human Values
         - Title: Towards a Theory of Justice for Artificial Intelligence
         - Title: What Would Jiminy Cricket Do? Towards Agents That Behave Morally
+        - Title: A Low-Cost Ethics Shaping Approach for Designing Reinforcement Learning Agents
     - Sub_Topic: Inverse Reinforcement Learning
       Research_Papers:
         - Title: Inverse Reinforcement Learning
@@ -47,6 +48,7 @@ categories_yaml:
         - Title: VILD Variational Imitation Learning with Diverse-quality Demonstrations
         - Title: Reward Learning from Narrated Demonstrations
         - Title: Perceptual Values from Observation
+        - Title: An Extensible Interactive Interface for Agent Design
     - Sub_Topic: Societal Value Alignment
       Research_Papers:
         - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
@@ -68,6 +70,9 @@ categories_yaml:
         - Title: No Metrics Are Perfect Adversarial Reward Learning for Visual Storytelling
         - Title: From Optimizing Engagement to Measuring Value
         - Title: Reward-rational (implicit) choice A unifying formalism for reward learning
+        - Title: Avoiding Tampering Incentives in Deep RL via Decoupled Approval
+        - Title: Simplifying Reward Design through Divide-and-Conquer
+        - Title: I Know What You Meant Learning Human Objectives by (Under)estimating Their Choice Set
     - Sub_Topic: Low Impact AI
       Research_Papers:
         - Title: Low Impact Artificial Intelligences
@@ -83,6 +88,9 @@ categories_yaml:
         - Title: Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation
         - Title: Interactive Learning from Policy-Dependent Human Feedback
         - Title: Nonverbal Robot Feedback for Human Teachers
+        - Title: Learning under Misspecified Objective Spaces
+        - Title: Parenting Safe Reinforcement Learning from Human Input
+        - Title: Literal or Pedagogic Human? Analyzing Human Model Misspecification in Objective Learning
     - Sub_Topic: Exploration in Reinforcement Learning
       Research_Papers:
         - Title: Exploration Potential
@@ -96,6 +104,15 @@ categories_yaml:
     - Sub_Topic: Metric Optimization
       Research_Papers:
         - Title: Categorizing Variants of Goodhart's Law
+    - Sub_Topic: Algorithmic Fairness
+      Research_Papers:
+        - Title: Algorithmic Fairness from a Non-ideal Perspective
+    - Sub_Topic: AI Debate
+      Research_Papers:
+        - Title: (When) Is Truth-telling Favored in AI Debate?
+    - Sub_Topic: AI Truthfulness
+      Research_Papers:
+        - Title: Truthful AI Developing and governing AI that does not lie
 
 - Main_Topic: Safety and Robustness
   Sub_Topics:
@@ -116,6 +133,9 @@ categories_yaml:
         - Title: BERT-ATTACK Adversarial Attack Against BERT Using BERT
         - Title: Testing Robustness Against Unforeseen Adversaries
         - Title: A Marauder's Map of Security and Privacy in Machine Learning
+        - Title: Certified Adversarial Defenses Meet Out-of-Distribution Corruptions Benchmarking Robustness and Simple Baselines
+        - Title: Certified Patch Robustness via Smoothed Vision Transformers
+        - Title: Sufficient Conditions for Idealised Models to Have No Adversarial Examples a Theoretical and Empirical Study with Bayesian Neural Networks
     - Sub_Topic: Architecture Search
       Research_Papers:
         - Title: DARTS Differentiable Architecture Search
@@ -140,6 +160,7 @@ categories_yaml:
         - Title: Lyapunov-based Safe Policy Optimization for Continuous Control
         - Title: Leave no Trace Learning to Reset for Safe and Autonomous Reinforcement Learning
         - Title: Recovery RL Safe Reinforcement Learning with Learned Recovery Zones
+        - Title: Safe Reinforcement Learning via Probabilistic Shields
     - Sub_Topic: Reward Tampering
       Research_Papers:
         - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
@@ -188,9 +209,22 @@ categories_yaml:
     - Sub_Topic: Network Pruning
       Research_Papers:
         - Title: Stabilizing the Lottery Ticket Hypothesis
+        - Title: Linear Mode Connectivity and the Lottery Ticket Hypothesis
     - Sub_Topic: Objective Robustness
       Research_Papers:
         - Title: Objective Robustness in Deep Reinforcement Learning
+    - Sub_Topic: Data Processing for Robustness
+      Research_Papers:
+        - Title: AugMix A Simple Data Processing Method to Improve Robustness and Uncertainty
+    - Sub_Topic: Dynamic Adversarial Training
+      Research_Papers:
+        - Title: Analyzing Dynamic Adversarial Training Data in the Limit
+    - Sub_Topic: Debugging Neural Networks
+      Research_Papers:
+        - Title: TensorFuzz Debugging Neural Networks with Coverage-Guided Fuzzing
+    - Sub_Topic: Adversarial Threats
+      Research_Papers:
+        - Title: Reinforcement Learning under Threats
 
 - Main_Topic: Interpretability, Explainability, and Transparency
   Sub_Topics:
@@ -223,6 +257,9 @@ categories_yaml:
     - Sub_Topic: Local Specialization
       Research_Papers:
         - Title: Quantifying Local Specialization in Deep Neural Networks
+    - Sub_Topic: Sparse Linear Models
+      Research_Papers:
+        - Title: Leveraging Sparse Linear Layers for Debuggable Deep Networks
 
 - Main_Topic: Meta-learning, Transfer Learning, and Generalization
   Sub_Topics:
@@ -253,15 +290,23 @@ categories_yaml:
     - Sub_Topic: Few-Shot Learning
       Research_Papers:
         - Title: True Few-Shot Learning with Language Models
+        - Title: Meta-Learning with Latent Embedding Optimization
     - Sub_Topic: Memory-Based Meta-Learning
       Research_Papers:
         - Title: Meta-learning of Sequential Strategies
     - Sub_Topic: Scaling Laws
       Research_Papers:
         - Title: Scaling Laws for Neural Language Models
+        - Title: Scaling Laws for Transfer
     - Sub_Topic: Abstraction Learning
       Research_Papers:
         - Title: Abstraction Learning
+    - Sub_Topic: Continual Learning
+      Research_Papers:
+        - Title: Learning to Continually Learn
+    - Sub_Topic: Self-Taught AI
+      Research_Papers:
+        - Title: Solving the Rubik's Cube Without Human Knowledge
 
 - Main_Topic: Ethical and Societal Implications of AI
   Sub_Topics:
@@ -302,6 +347,9 @@ categories_yaml:
     - Sub_Topic: Energy Requirements
       Research_Papers:
         - Title: Energetics of the brain and AI
+    - Sub_Topic: Research Publication Risks
+      Research_Papers:
+        - Title: The Offense-Defense Balance of Scientific Knowledge Does Publishing AI Research Reduce Misuse?
 
 - Main_Topic: AI Governance and Policy
   Sub_Topics:
@@ -324,6 +372,7 @@ categories_yaml:
         - Title: Mastering Complex Control in MOBA Games with Deep Reinforcement Learning
         - Title: Learning in two-player games between transparent opponents
         - Title: Towards Learning Multi-agent Negotiations via Self-Play
+        - Title: Decentralized Reinforcement Learning Global Decision-Making via Local Economic Transactions
     - Sub_Topic: Empirical Studies
       Research_Papers:
         - Title: What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study
@@ -349,12 +398,20 @@ categories_yaml:
     - Sub_Topic: Reinforcement Learning
       Research_Papers:
         - Title: PPO-CMA Proximal Policy Optimization with Covariance Matrix Adaptation
+        - Title: Model-Based Reinforcement Learning via Meta-Policy Optimization
     - Sub_Topic: Self-Attention in Vision Models
       Research_Papers:
         - Title: Stand-Alone Self-Attention in Vision Models
+        - Title: An Image is Worth 16x16 Words Transformers for Image Recognition at Scale
     - Sub_Topic: Forecasting
       Research_Papers:
         - Title: Forecasting using incomplete models
+    - Sub_Topic: Unsupervised Learning
+      Research_Papers:
+        - Title: Toward an AI Physicist for Unsupervised Learning
+    - Sub_Topic: Neural Machine Translation
+      Research_Papers:
+        - Title: Google's Neural Machine Translation System Bridging the Gap between Human and Machine Translation
 
 - Main_Topic: Human-AI Interaction and Collaboration
   Sub_Topics:
@@ -416,3 +473,27 @@ categories_yaml:
     - Sub_Topic: Shared Model Governance
       Research_Papers:
         - Title: Scaling shared model governance via model splitting
+
+- Main_Topic: AI Security and Privacy
+  Sub_Topics:
+    - Sub_Topic: Security and Privacy in Deep Learning
+      Research_Papers:
+        - Title: Security and Privacy Issues in Deep Learning
+
+- Main_Topic: Biological Inspiration in AI
+  Sub_Topics:
+    - Sub_Topic: Biologically-Inspired AI Safety
+      Research_Papers:
+        - Title: Integrative Biological Simulation, Neuropsychology, and AI Safety
+
+- Main_Topic: Relational Reasoning
+  Sub_Topics:
+    - Sub_Topic: Relational Inductive Bias
+      Research_Papers:
+        - Title: Relational inductive bias for physical construction in humans and machines
+
+- Main_Topic: AI Safety State Analysis
+  Sub_Topics:
+    - Sub_Topic: Quantitative Analysis
+      Research_Papers:
+        - Title: AI safety state of the field through quantitative lens
