@@ -10,3 +10,4 @@ interface CustomEventMap {
 }
 
 declare const fetchData: Promise<ContentIndex>
+

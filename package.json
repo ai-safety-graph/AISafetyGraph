@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "@/ai_alignment_graph",
+  "description": "AI Alignement Research Paper Graph",
   "private": true,
   "version": "4.2.4",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/mnm-matin/ai_alignment_graph"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
