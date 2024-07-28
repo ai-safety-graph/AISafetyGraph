@@ -17,8 +17,7 @@ def create_obsidian_graph(yaml_data, arxiv_data):
     index_content = """
 ---\n\n
 title: AI Alignment Research Graph\n
----\n\n
-        """
+---\n\n"""
     index_content += "# Main Topics\n\n"
     for topic in yaml_data:
         print(topic)
