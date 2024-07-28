@@ -29,8 +29,6 @@ def create_summaries(subtopic_name, paper_info):
 
 def create_main_topic_summaries(main_topic, subtopic_summaries):
     prompt = f"You are an AI alignment research assistant. Your task is to create a 1 paragraph summary of the main topic {main_topic}. Make use of the following subtopic summaries:\n {subtopic_summaries}\nSummary of {main_topic}:"
-    prompt = f"You are an AI alignment research assistant. Your task is to create a 1 paragraph summary of the subtopic {subtopic_name}. Make use of the following paper abstracts:\n {paper_info}\nSummary:"
-
     message = client.messages.create(
         model="claude-3-5-sonnet-20240620",
         max_tokens=4096,
@@ -106,17 +104,10 @@ if __name__ == "__main__":
     with open(arxiv_data_path) as f:
         arxiv_data = yaml.safe_load(f)
 
-summaries = add_subtopic_summaries(yaml_data, arxiv_data)
+summaries = add_main_topic_summaries(yaml_data)
 
 with open('generate_md/llm_cluster_with_summaries.yaml', "w") as f:
     yaml.dump(yaml_data, f)
 
-with open('generate_md/summaries.json', "w") as f:
-    json.dump(summaries, f)
-summaries = add_subtopic_summaries(yaml_data, arxiv_data)
-
-with open('generate_md/llm_cluster_with_summaries.yaml', "w") as f:
-    yaml.dump(yaml_data, f)
-
-with open('generate_md/summaries.json', "w") as f:
+with open('generate_md/main_summaries.json', "w") as f:
     json.dump(summaries, f)
