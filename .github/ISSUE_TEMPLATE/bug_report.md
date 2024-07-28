@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Something about Quartz isn't working the way you expect
+about: Something is wrong with the AI Alignement Research Paper Graph
 title: ""
 labels: bug
 assignees: ""
@@ -28,13 +28,6 @@ You can help speed up fixing the problem by either
 1. providing a simple reproduction
 2. linking to your Quartz repository where the problem can be observed
 
-**Desktop (please complete the following information):**
-
-- Quartz Version: [e.g. v4.1.2]
-- `node` Version: [e.g. v18.16]
-- `npm` version: [e.g. v10.1.0]
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
 
 **Additional context**
 Add any other context about the problem here.
