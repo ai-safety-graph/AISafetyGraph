@@ -1,6 +1,8 @@
 import yaml
 import os
 from anthropic import Anthropic
+from tqdm import tqdm
+import json
 
 # read key from .env
 with open(".env", "r") as f:
@@ -10,7 +12,7 @@ with open(".env", "r") as f:
 client = Anthropic(api_key=api_key)
 
 def create_summaries(subtopic_name, paper_info):
-    prompt = f"You are an AI alignment research assistant. Your task is to create a summary of the subtopic {subtopic_name}. Make use of the following paper abstracts:\n {paper_info}\nSummary:"
+    prompt = f"You are an AI alignment research assistant. Your task is to create a 1 paragraph summary of the subtopic {subtopic_name}. Make use of the following paper abstracts:\n {paper_info}\nSummary:"
 
     message = client.messages.create(
         model="claude-3-5-sonnet-20240620",
@@ -29,11 +31,14 @@ def to_id(text):
     return ''.join(char for char in text.lower() if char.islower())
 
 def add_subtopic_summaries(yaml_data, arxiv_data):
-    for topic in yaml_data:
+    summaries = []
+    with open("generate_md/summaries.json", "r") as f:
+        summaries = json.load(f)
+    for topic in tqdm(yaml_data):
         main_topic = topic['Main_Topic']
         
         # Create main topic file
-        for sub_topic in topic['Sub_Topics']:
+        for sub_topic in tqdm(topic['Sub_Topics']):
             sub_topic_name = sub_topic['Sub_Topic']
             
             # Create sub-topic file
@@ -45,10 +50,13 @@ def add_subtopic_summaries(yaml_data, arxiv_data):
                 except:
                     print(paper['Title'])
 
-            summary = create_summaries(sub_topic_name, papers_info)
+            # summary = create_summaries(sub_topic_name, papers_info)
+            summary = summaries.pop(0)
             sub_topic['Summary'] = summary
             print(summary)
+            summaries.append(summary)
 
+    return summaries
             
     
 llm_cluster_yaml = "generate_md/llm_cluster.yaml"
@@ -61,7 +69,10 @@ with open(arxiv_data_path) as f:
 
 arxiv_data = {to_id(item['title']) : item for item in arxiv_data}
 
-add_subtopic_summaries(yaml_data, arxiv_data)
+summaries = add_subtopic_summaries(yaml_data, arxiv_data)
 
-with open('generate_md/llm_cluster_with_summaries', "w") as f:
-    yaml.dump(yaml_data)
+with open('generate_md/llm_cluster_with_summaries.yaml', "w") as f:
+    yaml.dump(yaml_data, f)
+
+with open('generate_md/summaries.json', "w") as f:
+    json.dump(summaries, f)
