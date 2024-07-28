@@ -1,6 +1,6 @@
 import yaml
 import os
-import string
+import anthropic
 
 content_file_path = "../content"
 
@@ -27,17 +27,21 @@ def create_obsidian_graph(yaml_data, arxiv_data):
             main_topic_content += f"- [[{sub_topic_name}]]\n"
             
             # Create sub-topic file
-            sub_topic_content = f"# {sub_topic_name}\n\n## Research Papers\n\n"
+            sub_topic_content = f"## Research Papers\n\n"
+            papers = ""
             for paper in sub_topic['Research_Papers']:
                 paper_id = to_id(paper['Title'])
                 try:
                     arxiv_url = arxiv_data[paper_id]['url']
                     sub_topic_content += f"- [[{paper['Title']}]]\n"
+                    papers += f"# {paper['Title']}\n{arxiv_url}\n## Abstract\n_{arxiv_data[paper_id]['abstract']}_\n\n---\n\n"
 
                     page_content = f"# {paper['Title']}\n{arxiv_url}\n## Abstract\n_{arxiv_data[paper_id]['abstract']}_"
                     create_file(f"{paper['Title']}.md", page_content)
                 except:
                     print(paper['Title'])
+
+            sub_topic_content = "# {sub_topic_name}\n\n" + sub_topic_content
 
 
             

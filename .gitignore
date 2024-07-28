@@ -9,3 +9,5 @@ private/
 .replit
 replit.nix
 node_modules
+.env
+env
