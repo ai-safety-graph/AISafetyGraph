@@ -1,0 +1,4 @@
+# Exploration Potential
+http://arxiv.org/abs/1609.04994v3
+## Abstract
+We introduce exploration potential, a quantity that measures how much a reinforcement learning agent has explored its environment class. In contrast to information gain, exploration potential takes the problem's reward structure into account. This leads to an exploration criterion that is both necessary and sufficient for asymptotic optimality (learning to act optimally across the entire environment class). Our experiments in multi-armed bandits use exploration potential to illustrate how different algorithms make the tradeoff between exploration and exploitation.

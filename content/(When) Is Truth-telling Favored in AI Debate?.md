@@ -1,0 +1,4 @@
+# (When) Is Truth-telling Favored in AI Debate?
+http://arxiv.org/abs/1911.04266v3
+## Abstract
+For some problems, humans may not be able to accurately judge the goodness of AI-proposed solutions. Irving et al. (2018) propose that in such cases, we may use a debate between two AI systems to amplify the problem-solving capabilities of a human judge. We introduce a mathematical framework that can model debates of this type and propose that the quality of debate designs should be measured by the accuracy of the most persuasive answer. We describe a simple instance of the debate framework called feature debate and analyze the degree to which such debates track the truth. We argue that despite being very simple, feature debates nonetheless capture many aspects of practical debates such as the incentives to confuse the judge or stall to prevent losing. We then outline how these models should be generalized to analyze a wider range of debate phenomena.

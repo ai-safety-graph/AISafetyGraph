@@ -14,7 +14,7 @@ def create_file(filename, content):
 
 def create_obsidian_graph(yaml_data, arxiv_data):
     # Create index.md
-    index_content = "# Research Topics\n\n"
+    index_content = "# Main Topics\n\n"
     for topic in yaml_data:
         print(topic)
         main_topic = topic['Main_Topic']
@@ -28,21 +28,19 @@ def create_obsidian_graph(yaml_data, arxiv_data):
             summary = sub_topic['Summary']
             
             # Create sub-topic file
-            sub_topic_content = f"#{sub_topic_name}\n\n## Summary\n {summary}\n## Research Papers\n\n"
-            papers = ""
+            sub_topic_content = f"## Summary\n {summary}\n## Research Papers\n\n"
             for paper in sub_topic['Research_Papers']:
                 paper_id = to_id(paper['Title'])
                 try:
                     arxiv_url = arxiv_data[paper_id]['url']
                     sub_topic_content += f"- [[{paper['Title']}]]\n"
-                    papers += f"# {paper['Title']}\n{arxiv_url}\n## Abstract\n_{arxiv_data[paper_id]['abstract']}_\n\n---\n\n"
 
-                    page_content = f"# {paper['Title']}\n{arxiv_url}\n## Abstract\n_{arxiv_data[paper_id]['abstract']}_"
+                    page_content = f"# {paper['Title']}\n{arxiv_url}\n## Abstract\n{arxiv_data[paper_id]['abstract']}"
                     create_file(f"{paper['Title']}.md", page_content)
                 except:
                     print(paper['Title'])
 
-            sub_topic_content = "# {sub_topic_name}\n\n" + sub_topic_content
+            sub_topic_content = f"# {sub_topic_name}\n\n" + sub_topic_content
 
 
             
@@ -52,11 +50,11 @@ def create_obsidian_graph(yaml_data, arxiv_data):
     
     create_file("index.md", index_content)
 
-llm_cluster_yaml = "generate_md/llm_cluster_with_summaries.yaml"
+llm_cluster_yaml = "llm_cluster_with_summaries.yaml"
 with open(llm_cluster_yaml, "r") as f:
     yaml_data = yaml.safe_load(f)
 
-arxiv_data_path = "generate_md/arxiv_papers_for_llm.yaml"
+arxiv_data_path = "arxiv_papers_for_llm.yaml"
 with open(arxiv_data_path) as f:
     arxiv_data = yaml.safe_load(f)
 

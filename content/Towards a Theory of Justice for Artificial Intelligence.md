@@ -1,0 +1,4 @@
+# Towards a Theory of Justice for Artificial Intelligence
+http://arxiv.org/abs/2110.14419v1
+## Abstract
+This paper explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of socio-technical systems, and that the operation of these systems is increasingly shaped and influenced by AI. As a consequence, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens rights, and promote substantively fair outcomes -- something that requires specific attention be paid to the impact they have on the worst-off members of society.

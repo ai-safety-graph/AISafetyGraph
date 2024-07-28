@@ -1,0 +1,4 @@
+# Measurement in AI Policy Opportunities and Challenges
+http://arxiv.org/abs/2009.09071v1
+## Abstract
+As artificial intelligence increasingly influences our world, it becomes crucial to assess its technical progress and societal impact. This paper surveys problems and opportunities in the measurement of AI systems and their impact, based on a workshop held at Stanford University in the fall of 2019. We identify six summary challenges inherent to measuring the progress and impact of AI, and summarize over 40 presentations and associated discussions from the workshop. We hope this can inspire research agendas in this crucial area.

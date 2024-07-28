@@ -1,0 +1,4 @@
+# Modeling Friends and Foes
+http://arxiv.org/abs/1807.00196v1
+## Abstract
+How can one detect friendly and adversarial behavior from raw data? Detecting whether an environment is a friend, a foe, or anything in between, remains a poorly understood yet desirable ability for safe and robust agents. This paper proposes a definition of these environmental attitudes based on an characterization of the environment's ability to react to the agent's private strategy. We define an objective function for a one-shot game that allows deriving the environment's probability distribution under friendly and adversarial assumptions alongside the agent's optimal strategy. Furthermore, we present an algorithm to compute these equilibrium strategies, and show experimentally that both friendly and adversarial environments possess non-trivial optimal strategies.

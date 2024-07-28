@@ -1,0 +1,4 @@
+# Building Safer AGI by introducing Artificial Stupidity
+http://arxiv.org/abs/1808.03644v1
+## Abstract
+Artificial Intelligence (AI) achieved super-human performance in a broad variety of domains. We say that an AI is made Artificially Stupid on a task when some limitations are deliberately introduced to match a human's ability to do the task. An Artificial General Intelligence (AGI) can be made safer by limiting its computing power and memory, or by introducing Artificial Stupidity on certain tasks. We survey human intellectual limits and give recommendations for which limits to implement in order to build a safe AGI.

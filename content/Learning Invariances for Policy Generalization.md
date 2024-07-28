@@ -1,0 +1,4 @@
+# Learning Invariances for Policy Generalization
+http://arxiv.org/abs/1809.02591v2
+## Abstract
+While recent progress has spawned very powerful machine learning systems, those agents remain extremely specialized and fail to transfer the knowledge they gain to similar yet unseen tasks. In this paper, we study a simple reinforcement learning problem and focus on learning policies that encode the proper invariances for generalization to different settings. We evaluate three potential methods for policy generalization data augmentation, meta-learning and adversarial training. We find our data augmentation method to be effective, and study the potential of meta-learning and adversarial learning as alternative task-agnostic approaches.

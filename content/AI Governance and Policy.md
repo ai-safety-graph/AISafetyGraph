@@ -2,5 +2,5 @@
 
 ## Sub-topics
 
-- [[AI Deployment Challenges]]
-- [[AI Regulation and Norms]]
+- [[AI Progress Measurement]]
+- [[Forecasting AI Progress]]

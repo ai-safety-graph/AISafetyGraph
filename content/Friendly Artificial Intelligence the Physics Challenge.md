@@ -1,0 +1,4 @@
+# Friendly Artificial Intelligence the Physics Challenge
+http://arxiv.org/abs/1409.0813v2
+## Abstract
+Relentless progress in artificial intelligence (AI) is increasingly raising concerns that machines will replace humans on the job market, and perhaps altogether. Eliezer Yudkowski and others have explored the possibility that a promising future for humankind could be guaranteed by a superintelligent Friendly AI, designed to safeguard humanity and its values. I argue that, from a physics perspective where everything is simply an arrangement of elementary particles, this might be even harder than it appears. Indeed, it may require thinking rigorously about the meaning of life What is meaning in a particle arrangement? What is life? What is the ultimate ethical imperative, i.e., how should we strive to rearrange the particles of our Universe and shape its future? If we fail to answer the last question rigorously, this future is unlikely to contain humans.

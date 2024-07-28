@@ -1,0 +1,4 @@
+# Perceptual Values from Observation
+http://arxiv.org/abs/1905.07861v1
+## Abstract
+Imitation by observation is an approach for learning from expert demonstrations that lack action information, such as videos. Recent approaches to this problem can be placed into two broad categories training dynamics models that aim to predict the actions taken between states, and learning rewards or features for computing them for Reinforcement Learning (RL). In this paper, we introduce a novel approach that learns values, rather than rewards, directly from observations. We show that by using values, we can significantly speed up RL by removing the need to bootstrap action-values, as compared to sparse-reward specifications.

@@ -1,0 +1,4 @@
+# Active Reinforcement Learning with Monte-Carlo Tree Search
+http://arxiv.org/abs/1803.04926v3
+## Abstract
+Active Reinforcement Learning (ARL) is a twist on RL where the agent observes reward information only if it pays a cost. This subtle change makes exploration substantially more challenging. Powerful principles in RL like optimism, Thompson sampling, and random exploration do not help with ARL. We relate ARL in tabular environments to Bayes-Adaptive MDPs. We provide an ARL algorithm using Monte-Carlo Tree Search that is asymptotically Bayes optimal. Experimentally, this algorithm is near-optimal on small Bandit problems and MDPs. On larger MDPs it outperforms a Q-learner augmented with specialised heuristics for ARL. By analysing exploration behaviour in detail, we uncover obstacles to scaling up simulation-based algorithms for ARL.

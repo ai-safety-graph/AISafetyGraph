@@ -1,0 +1,4 @@
+# Equilibrium Refinements for Multi-Agent Influence Diagrams Theory and Practice
+http://arxiv.org/abs/2102.05008v1
+## Abstract
+Multi-agent influence diagrams (MAIDs) are a popular form of graphical model that, for certain classes of games, have been shown to offer key complexity and explainability advantages over traditional extensive form game (EFG) representations. In this paper, we extend previous work on MAIDs by introducing the concept of a MAID subgame, as well as subgame perfect and trembling hand perfect equilibrium refinements. We then prove several equivalence results between MAIDs and EFGs. Finally, we describe an open source implementation for reasoning about MAIDs and computing their equilibria.

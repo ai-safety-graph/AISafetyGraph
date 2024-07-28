@@ -1,0 +1,4 @@
+# A Psychopathological Approach to Safety Engineering in AI and AGI
+http://arxiv.org/abs/1805.08915v1
+## Abstract
+The complexity of dynamics in AI techniques is already approaching that of complex adaptive systems, thus curtailing the feasibility of formal controllability and reachability analysis in the context of AI safety. It follows that the envisioned instances of Artificial General Intelligence (AGI) will also suffer from challenges of complexity. To tackle such issues, we propose the modeling of deleterious behaviors in AI and AGI as psychological disorders, thereby enabling the employment of psychopathological approaches to analysis and control of misbehaviors. Accordingly, we present a discussion on the feasibility of the psychopathological approaches to AI safety, and propose general directions for research on modeling, diagnosis, and treatment of psychological disorders in AGI.

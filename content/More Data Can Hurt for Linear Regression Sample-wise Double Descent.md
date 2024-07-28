@@ -1,0 +1,4 @@
+# More Data Can Hurt for Linear Regression Sample-wise Double Descent
+http://arxiv.org/abs/1912.07242v1
+## Abstract
+In this expository note we describe a surprising phenomenon in overparameterized linear regression, where the dimension exceeds the number of samples there is a regime where the test risk of the estimator found by gradient descent increases with additional samples. In other words, more data actually hurts the estimator. This behavior is implicit in a recent line of theoretical works analyzing double-descent phenomenon in linear models. In this note, we isolate and understand this behavior in an extremely simple setting linear regression with isotropic Gaussian covariates. In particular, this occurs due to an unconventional type of bias-variance tradeoff in the overparameterized regime the bias decreases with more samples, but variance increases.

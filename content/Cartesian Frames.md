@@ -1,0 +1,4 @@
+# Cartesian Frames
+http://arxiv.org/abs/2109.10996v1
+## Abstract
+We introduce a novel framework, the theory of Cartesian frames (CF), that gives powerful tools for manipulating sets of acts. The CF framework takes as its most fundamental building block that an agent can freely choose from a set of available actions. The framework uses the mathematics of Chu spaces to develop a calculus of those sets of actions, how those actions change at various levels of description, and how different agents' actions can combine when agents work in concert. We discuss how this framework might provide an illuminating perspective on issues in decision theory and formal epistemology.

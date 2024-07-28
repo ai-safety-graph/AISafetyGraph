@@ -1,0 +1,4 @@
+# A Low-Cost Ethics Shaping Approach for Designing Reinforcement Learning Agents
+http://arxiv.org/abs/1712.04172v2
+## Abstract
+This paper proposes a low-cost, easily realizable strategy to equip a reinforcement learning (RL) agent the capability of behaving ethically. Our model allows the designers of RL agents to solely focus on the task to achieve, without having to worry about the implementation of multiple trivial ethical patterns to follow. Based on the assumption that the majority of human behavior, regardless which goals they are achieving, is ethical, our design integrates human policy with the RL policy to achieve the target objective with less chance of violating the ethical code that human beings normally obey.
