@@ -1,3 +1,7 @@
+---
+title: AI ALignment Research Graph
+---
+
 # Main Topics
 
 - [[Value Alignment]]
