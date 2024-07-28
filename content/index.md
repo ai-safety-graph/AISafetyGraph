@@ -1,10 +1,10 @@
 
-        ---
+---
 
 
-        title: AI ALignment Research Graph
+title: AI Alignment Research Graph
 
-        ---
+---
 
 
         # Main Topics
