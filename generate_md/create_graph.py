@@ -1,14 +1,18 @@
 import yaml
 import os
+import string
 
 content_file_path = "../content"
+
+def to_id(text):
+    return ''.join(char for char in text.lower() if char.islower())
 
 def create_file(filename, content):
     filename = os.path.join(content_file_path, filename)
     with open(filename, 'w') as f:
         f.write(content)
 
-def create_obsidian_graph(yaml_data):
+def create_obsidian_graph(yaml_data, arxiv_data):
     # Create index.md
     index_content = "# Research Topics\n\n"
     for topic in yaml_data:
@@ -24,7 +28,14 @@ def create_obsidian_graph(yaml_data):
             # Create sub-topic file
             sub_topic_content = f"# {sub_topic_name}\n\n## Research Papers\n\n"
             for paper in sub_topic['Research_Papers']:
-                sub_topic_content += f"- {paper['Title']}\n"
+                paper_id = to_id(paper['Title'])
+                try:
+                    arxiv_url = arxiv_data[paper_id]['url']
+                    sub_topic_content += f"- {paper['Title']}\n"
+                except:
+                    print(paper['Title'])
+
+
             
             create_file(f"{sub_topic_name}.md", sub_topic_content)
         
@@ -36,4 +47,10 @@ llm_cluster_yaml = "llm_cluster.yaml"
 with open(llm_cluster_yaml, "r") as f:
     yaml_data = yaml.safe_load(f)
 
-create_obsidian_graph(yaml_data)
+arxiv_data_path = "arxiv_papers_for_llm.yaml"
+with open(arxiv_data_path) as f:
+    arxiv_data = yaml.safe_load(f)
+
+arxiv_data = {to_id(item['title']) : item for item in arxiv_data}
+
+create_obsidian_graph(yaml_data, arxiv_data)
