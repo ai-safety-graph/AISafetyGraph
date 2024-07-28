@@ -1,9 +1,20 @@
+categories_yaml:
 - Main_Topic: Value Alignment
   Sub_Topics:
     - Sub_Topic: Defining Human Values
       Research_Papers:
         - Title: Human Compatible Artificial Intelligence and the Problem of Control
         - Title: The Value Learning Problem
+        - Title: Aligning AI With Shared Human Values
+        - Title: Delphi Towards Machine Ethics and Norms
+        - Title: Ontological Crises in Artificial Agents' Value Systems
+        - Title: Consequences of Misaligned AI
+        - Title: AI Safety and Reproducibility Establishing Robust Foundations for the Neuropsychology of Human Values
+        - Title: Dark, Beyond Deep A Paradigm Shift to Cognitive AI with Humanlike Common Sense
+        - Title: Towards a Theory of Justice for Artificial Intelligence
+        - Title: Counterfactual Fairness
+        - Title: Preferences Implicit in the State of the World
+        - Title: Reinforcement Learning Under Moral Uncertainty
     - Sub_Topic: Inverse Reinforcement Learning
       Research_Papers:
         - Title: Inverse Reinforcement Learning
@@ -11,26 +22,69 @@
         - Title: An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning
         - Title: Adversarial Soft Advantage Fitting Imitation Learning without Policy Optimization
         - Title: Learning What To Do by Simulating the Past
+        - Title: Learning Robust Rewards with Adversarial Inverse Reinforcement Learning
+        - Title: IQ-Learn Inverse soft-Q Learning for Imitation
+        - Title: Positive-Unlabeled Reward Learning
+        - Title: No Metrics Are Perfect Adversarial Reward Learning for Visual Storytelling
+        - Title: A Survey of Inverse Reinforcement Learning Challenges, Methods and Progress
+        - Title: Generalized Hindsight for Reinforcement Learning
+        - Title: Online Bayesian Goal Inference for Boundedly-Rational Planning Agents
     - Sub_Topic: Cooperative Inverse Reinforcement Learning
       Research_Papers:
         - Title: An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning
+        - Title: Cooperative Inverse Reinforcement Learning
     - Sub_Topic: Imitation Learning
       Research_Papers:
         - Title: Adversarial Soft Advantage Fitting Imitation Learning without Policy Optimization
         - Title: Learning What To Do by Simulating the Past
         - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+        - Title: IQ-Learn Inverse soft-Q Learning for Imitation
+        - Title: Causal Confusion in Imitation Learning
+        - Title: O2A One-shot Observational learning with Action vectors
+        - Title: EnsembleDAgger A Bayesian Approach to Safe Imitation Learning
+        - Title: Preventing Imitation Learning with Adversarial Policy Ensembles
+        - Title: Retrospective Analysis of the 2019 MineRL Competition on Sample Efficient Reinforcement Learning
+        - Title: Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations
+        - Title: One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks
+        - Title: Imitating Latent Policies from Observation
+        - Title: Discriminator-Actor-Critic Addressing Sample Inefficiency and Reward Bias in Adversarial Imitation Learning
+        - Title: Offline Reinforcement Learning as One Big Sequence Modeling Problem
+        - Title: VILD Variational Imitation Learning with Diverse-quality Demonstrations
     - Sub_Topic: Learning from Human Preferences
       Research_Papers:
         - Title: Learning What To Do by Simulating the Past
+        - Title: Replacing Rewards with Examples Example-Based Policy Search via Recursive Classification
+        - Title: From Optimizing Engagement to Measuring Value
+        - Title: The MineRL BASALT Competition on Learning from Human Feedback
+        - Title: Reward-rational (implicit) choice A unifying formalism for reward learning
+        - Title: Should Robots be Obedient?
+        - Title: Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation
     - Sub_Topic: Human-Robot Interaction Planning
       Research_Papers:
         - Title: Robot Planning with Mathematical Models of Human State and Action
+        - Title: Expressing Robot Incapability
+        - Title: Goal Inference Improves Objective and Perceived Performance in Human-Robot Collaboration
+        - Title: Should Robots be Obedient?
     - Sub_Topic: Reward Modeling and Tampering
       Research_Papers:
         - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+        - Title: Indifference methods for managing agent rewards
+        - Title: Emergence of Addictive Behaviors in Reinforcement Learning Agents
+        - Title: Curiosity Killed or Incapacitated the Cat and the Asymptotically Optimal Agent
     - Sub_Topic: Societal Value Alignment
       Research_Papers:
         - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
+        - Title: AI Research Considerations for Human Existential Safety (ARCHES)
+        - Title: Hard Choices in Artificial Intelligence Addressing Normative Uncertainty through Sociotechnical Commitments
+        - Title: The Social Cost of Strategic Classification
+        - Title: Ethics and Governance of Artificial Intelligence Evidence from a Survey of Machine Learning Researchers
+        - Title: Social and Governance Implications of Improved Data Efficiency
+        - Title: Towards a Theory of Justice for Artificial Intelligence
+        - Title: Learning Existing Social Conventions via Observationally Augmented Self-Play
+    - Sub_Topic: Intrinsic Motivation
+      Research_Papers:
+        - Title: Learning Efficient Representation for Intrinsic Motivation
+        - Title: Exploration Potential
 
 - Main_Topic: Safety and Robustness
   Sub_Topics:
@@ -40,14 +94,32 @@
         - Title: Quantifying Perceptual Distortion of Adversarial Examples
         - Title: Fooling the primate brain with minimal, targeted image manipulation
         - Title: Transfer of Adversarial Robustness Between Perturbation Types
+        - Title: Pyramid Adversarial Training Improves ViT Performance
+        - Title: Adversarial Logit Pairing
+        - Title: Certified Adversarial Robustness via Randomized Smoothing
+        - Title: Model Reconstruction from Model Explanations
+        - Title: Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment
+        - Title: Certified Defenses against Adversarial Examples
+        - Title: An Alternative Surrogate Loss for PGD-based Adversarial Testing
+        - Title: Fortified Networks Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations
+        - Title: BERT-ATTACK Adversarial Attack Against BERT Using BERT
+        - Title: Testing Robustness Against Unforeseen Adversaries
+        - Title: A Marauder's Map of Security and Privacy in Machine Learning
     - Sub_Topic: Architecture Search
       Research_Papers:
         - Title: DARTS Differentiable Architecture Search
         - Title: AutoML-Zero Evolving Machine Learning Algorithms From Scratch
         - Title: Neural Architecture Search with Reinforcement Learning
+        - Title: Generative Teaching Networks Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data
+        - Title: Resource-Efficient Neural Architect
     - Sub_Topic: Uncertainty Quantification
       Research_Papers:
         - Title: Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift
+        - Title: Asymptotic Logical Uncertainty and The Benford Test
+        - Title: Safe Reinforcement Learning with Model Uncertainty Estimates
+        - Title: A Formal Approach to the Problem of Logical Non-Omniscience
+        - Title: Analyzing Inverse Problems with Invertible Neural Networks
+        - Title: Inductive Coherence
     - Sub_Topic: Perceptual Metrics for AI Safety
       Research_Papers:
         - Title: Quantifying Perceptual Distortion of Adversarial Examples
@@ -59,39 +131,99 @@
       Research_Papers:
         - Title: Verifiably Safe Exploration for End-to-End Reinforcement Learning
         - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+        - Title: AI Safety Gridworlds
+        - Title: Safe Reinforcement Learning with Model Uncertainty Estimates
+        - Title: Safe Reinforcement Learning by Imagining the Near Future
+        - Title: Active Reinforcement Learning with Monte-Carlo Tree Search
+        - Title: Curiosity Killed or Incapacitated the Cat and the Asymptotically Optimal Agent
+        - Title: Lyapunov-based Safe Policy Optimization for Continuous Control
+        - Title: Planning to Explore via Self-Supervised World Models
+        - Title: Exploration Potential
+        - Title: Leave no Trace Learning to Reset for Safe and Autonomous Reinforcement Learning
     - Sub_Topic: Robustness Evaluation
       Research_Papers:
         - Title: Transfer of Adversarial Robustness Between Perturbation Types
+        - Title: Right for the Right Reasons Training Differentiable Models by Constraining their Explanations
+        - Title: Learning Robust Representations by Projecting Superficial Statistics Out
+        - Title: CEB Improves Model Robustness
+        - Title: More Data Can Hurt for Linear Regression Sample-wise Double Descent
+        - Title: Testing Robustness Against Unforeseen Adversaries
     - Sub_Topic: ML Safety Roadmap
       Research_Papers:
         - Title: Unsolved Problems in ML Safety
     - Sub_Topic: Reward Function Security
       Research_Papers:
         - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+        - Title: Indifference methods for managing agent rewards
+        - Title: Emergence of Addictive Behaviors in Reinforcement Learning Agents
+    - Sub_Topic: Policy Generalization
+      Research_Papers:
+        - Title: Learning Invariances for Policy Generalization
+    - Sub_Topic: AGI Containment
+      Research_Papers:
+        - Title: Stovepiping and Malicious Software A Critical Review of AGI Containment
+    - Sub_Topic: Bias Identification and Correction
+      Research_Papers:
+        - Title: Identifying and Correcting Label Bias in Machine Learning
+        - Title: Learning Not to Learn Training Deep Neural Networks with Biased Data
+    - Sub_Topic: Out-of-Distribution Detection
+      Research_Papers:
+        - Title: ReAct Out-of-distribution Detection With Rectified Activations
+        - Title: Likelihood Ratios for Out-of-Distribution Detection
+        - Title: VOS Learning What You Don't Know by Virtual Outlier Synthesis
+    - Sub_Topic: Safety Oversight
+      Research_Papers:
+        - Title: Oversight of Unsafe Systems via Dynamic Safety Envelopes
+    - Sub_Topic: Safe Multi-Agent Learning
+      Research_Papers:
+        - Title: Accumulating Risk Capital Through Investing in Cooperation
+        - Title: Modeling Friends and Foes
+    - Sub_Topic: Impact Limitation
+      Research_Papers:
+        - Title: Low Impact Artificial Intelligences
+    - Sub_Topic: AI-Generated Code Security
+      Research_Papers:
+        - Title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions
+    - Sub_Topic: Incident Documentation and Analysis
+      Research_Papers:
+        - Title: Preventing Repeated Real World AI Failures by Cataloging Incidents The AI Incident Database
+    - Sub_Topic: Formal Verification of Neural Networks
+      Research_Papers:
+        - Title: Algorithms for Verifying Deep Neural Networks
 
 - Main_Topic: AI Foundations and Understanding
   Sub_Topics:
     - Sub_Topic: Sequence Models and Causal Reasoning
       Research_Papers:
         - Title: Shaking the foundations delusions in sequence models for interaction and control
+        - Title: Offline Reinforcement Learning as One Big Sequence Modeling Problem
     - Sub_Topic: Inverse Models and Feature Learning
       Research_Papers:
         - Title: Learning What To Do by Simulating the Past
     - Sub_Topic: Partially Observable Environments
       Research_Papers:
         - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
+        - Title: Learning Latent Dynamics for Planning from Pixels
     - Sub_Topic: Cognitive Modeling for AI
       Research_Papers:
         - Title: Robot Planning with Mathematical Models of Human State and Action
+        - Title: Dark, Beyond Deep A Paradigm Shift to Cognitive AI with Humanlike Common Sense
+        - Title: Cognitive Model Priors for Predicting Human Decisions
     - Sub_Topic: Large Language Models
       Research_Papers:
         - Title: Predictability and Surprise in Large Generative Models
+        - Title: Challenges in Detoxifying Language Models
+        - Title: On the Opportunities and Risks of Foundation Models
+        - Title: True Few-Shot Learning with Language Models
+        - Title: Scaling Laws for Neural Language Models
     - Sub_Topic: Causal Influence Diagrams
       Research_Papers:
         - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
+        - Title: Equilibrium Refinements for Multi-Agent Influence Diagrams Theory and Practice
     - Sub_Topic: Evolutionary Algorithms for ML
       Research_Papers:
         - Title: AutoML-Zero Evolving Machine Learning Algorithms From Scratch
+        - Title: AI-GAs AI-generating algorithms, an alternate paradigm for producing general artificial intelligence
     - Sub_Topic: Learning Curve Theory
       Research_Papers:
         - Title: Learning Curve Theory
@@ -101,48 +233,49 @@
     - Sub_Topic: Reinforcement Learning for Architecture Design
       Research_Papers:
         - Title: Neural Architecture Search with Reinforcement Learning
-
-- Main_Topic: AI Progress Measurement and Evaluation
-  Sub_Topics:
-    - Sub_Topic: Multidimensional AI Progress Assessment
+        - Title: Resource-Efficient Neural Architect
+    - Sub_Topic: Decision Theory
       Research_Papers:
-        - Title: Accounting for the Neglected Dimensions of AI Progress
-    - Sub_Topic: Benchmarking Exploration in Complex Environments
+        - Title: Toward Idealized Decision Theory
+        - Title: Cartesian Frames
+    - Sub_Topic: Neural-Symbolic AI
       Research_Papers:
-        - Title: Making Efficient Use of Demonstrations to Solve Hard Exploration Problems
-    - Sub_Topic: Scaling Laws and Model Capabilities
+        - Title: Neurosymbolic AI The 3rd Wave
+    - Sub_Topic: Temporal Inference
       Research_Papers:
-        - Title: Predictability and Surprise in Large Generative Models
-        - Title: Learning Curve Theory
-    - Sub_Topic: Automated Algorithm Discovery
+        - Title: Temporal Inference with Finite Factored Sets
+    - Sub_Topic: Contrastive Learning
       Research_Papers:
-        - Title: AutoML-Zero Evolving Machine Learning Algorithms From Scratch
-        - Title: Neural Architecture Search with Reinforcement Learning
-
-- Main_Topic: ML Safety
-  Sub_Topics:
-    - Sub_Topic: Robustness
+        - Title: Improved Baselines with Momentum Contrastive Learning
+    - Sub_Topic: Neuron Interpretability
       Research_Papers:
-        - Title: Unsolved Problems in ML Safety
-    - Sub_Topic: Monitoring
+        - Title: Compositional Explanations of Neurons
+        - Title: Visualizing and Understanding Convolutional Networks
+    - Sub_Topic: Causal Reasoning
       Research_Papers:
-        - Title: Unsolved Problems in ML Safety
-    - Sub_Topic: Alignment
+        - Title: Causal Confusion in Imitation Learning
+    - Sub_Topic: Human-Centered AI
       Research_Papers:
-        - Title: Unsolved Problems in ML Safety
-        - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
-    - Sub_Topic: Systemic Safety
+        - Title: Human-Centered Artificial Intelligence and Machine Learning
+    - Sub_Topic: Attention Mechanisms
       Research_Papers:
-        - Title: Unsolved Problems in ML Safety
-    - Sub_Topic: Unintended Consequences
+        - Title: Attention Is All You Need
+    - Sub_Topic: Ontological Reasoning
       Research_Papers:
-        - Title: Predictability and Surprise in Large Generative Models
-
-- Main_Topic: AI Governance and Policy
-  Sub_Topics:
-    - Sub_Topic: AI Deployment Challenges
+        - Title: Ontological Crises in Artificial Agents' Value Systems
+    - Sub_Topic: Multi-Task Learning
       Research_Papers:
-        - Title: Predictability and Surprise in Large Generative Models
-    - Sub_Topic: AI Regulation and Norms
+        - Title: Meta-World A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning
+    - Sub_Topic: Shared Model Governance
       Research_Papers:
-        - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
+        - Title: Scaling shared model governance via model splitting
+    - Sub_Topic: Question Decomposition
+      Research_Papers:
+        - Title: Unsupervised Question Decomposition for Question Answering
+    - Sub_Topic: Agency and Intentionality
+      Research_Papers:
+        - Title: Agents and Devices A Relative Definition of Agency
+    - Sub_Topic: Deep Reinforcement Learning
+      Research_Papers:
+        - Title: Mastering Complex Control in MOBA Games with Deep Reinforcement Learning
+        - Title: Offline Reinforcement Learning Tutorial
