@@ -16,6 +16,7 @@ def create_obsidian_graph(yaml_data, arxiv_data):
     # Create index.md
     index_content = "# Research Topics\n\n"
     for topic in yaml_data:
+        print(topic)
         main_topic = topic['Main_Topic']
         index_content += f"- [[{main_topic}]]\n"
         
@@ -31,7 +32,10 @@ def create_obsidian_graph(yaml_data, arxiv_data):
                 paper_id = to_id(paper['Title'])
                 try:
                     arxiv_url = arxiv_data[paper_id]['url']
-                    sub_topic_content += f"- {paper['Title']}\n"
+                    sub_topic_content += f"- [[{paper['Title']}]]\n"
+
+                    page_content = f"# {paper['Title']}\n{arxiv_url}\n## Abstract\n_{arxiv_data[paper_id]['abstract']}_"
+                    create_file(f"{paper['Title']}.md", page_content)
                 except:
                     print(paper['Title'])
 
