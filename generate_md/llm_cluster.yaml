@@ -1,4 +1,3 @@
-categories_yaml:
 - Main_Topic: Value Alignment
   Sub_Topics:
     - Sub_Topic: Defining Human Values
@@ -13,6 +12,11 @@ categories_yaml:
         - Title: Towards a Theory of Justice for Artificial Intelligence
         - Title: What Would Jiminy Cricket Do? Towards Agents That Behave Morally
         - Title: A Low-Cost Ethics Shaping Approach for Designing Reinforcement Learning Agents
+        - Title: What are you optimizing for? Aligning Recommender Systems with Human Values
+        - Title: Building Ethics into Artificial Intelligence
+        - Title: Artificial Intelligence, Values and Alignment
+        - Title: Alignment of Language Agents
+        - Title: Friendly Artificial Intelligence the Physics Challenge
     - Sub_Topic: Inverse Reinforcement Learning
       Research_Papers:
         - Title: Inverse Reinforcement Learning
@@ -29,6 +33,9 @@ categories_yaml:
         - Title: Efficient Exploration of Reward Functions in Inverse Reinforcement Learning via Bayesian Optimization
         - Title: Enabling Robots to Communicate their Objectives
         - Title: Where Do You Think You're Going? Inferring Beliefs about Dynamics from Behavior
+        - Title: Multi-task Maximum Entropy Inverse Reinforcement Learning
+        - Title: Learning Human Objectives by Evaluating Hypothetical Behavior
+        - Title: Multi-agent Inverse Reinforcement Learning for Certain General-sum Stochastic Games
     - Sub_Topic: Imitation Learning
       Research_Papers:
         - Title: Adversarial Soft Advantage Fitting Imitation Learning without Policy Optimization
@@ -49,6 +56,9 @@ categories_yaml:
         - Title: Reward Learning from Narrated Demonstrations
         - Title: Perceptual Values from Observation
         - Title: An Extensible Interactive Interface for Agent Design
+        - Title: Multi-Agent Generative Adversarial Imitation Learning
+        - Title: Auto-Encoding Variational Bayes
+        - Title: What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
     - Sub_Topic: Societal Value Alignment
       Research_Papers:
         - Title: Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem
@@ -57,14 +67,17 @@ categories_yaml:
       Research_Papers:
         - Title: Toward Idealized Decision Theory
         - Title: Cartesian Frames
+        - Title: Functional Decision Theory A New Theory of Instrumental Rationality
     - Sub_Topic: Agent Reward Management
       Research_Papers:
         - Title: Indifference methods for managing agent rewards
         - Title: Should Robots be Obedient?
         - Title: Avoiding Wireheading with Value Reinforcement Learning
+        - Title: Reinforcement Learning with a Corrupted Reward Channel
     - Sub_Topic: Intrinsic Motivation
       Research_Papers:
         - Title: Learning Efficient Representation for Intrinsic Motivation
+        - Title: Dynamics-Aware Unsupervised Discovery of Skills
     - Sub_Topic: Reward Learning
       Research_Papers:
         - Title: No Metrics Are Perfect Adversarial Reward Learning for Visual Storytelling
@@ -73,6 +86,8 @@ categories_yaml:
         - Title: Avoiding Tampering Incentives in Deep RL via Decoupled Approval
         - Title: Simplifying Reward Design through Divide-and-Conquer
         - Title: I Know What You Meant Learning Human Objectives by (Under)estimating Their Choice Set
+        - Title: Learning to Understand Goal Specifications by Modelling Reward
+        - Title: Understanding Learned Reward Functions
     - Sub_Topic: Low Impact AI
       Research_Papers:
         - Title: Low Impact Artificial Intelligences
@@ -91,6 +106,7 @@ categories_yaml:
         - Title: Learning under Misspecified Objective Spaces
         - Title: Parenting Safe Reinforcement Learning from Human Input
         - Title: Literal or Pedagogic Human? Analyzing Human Model Misspecification in Objective Learning
+        - Title: Safe Deep RL in 3D Environments using Human Feedback
     - Sub_Topic: Exploration in Reinforcement Learning
       Research_Papers:
         - Title: Exploration Potential
@@ -113,6 +129,25 @@ categories_yaml:
     - Sub_Topic: AI Truthfulness
       Research_Papers:
         - Title: Truthful AI Developing and governing AI that does not lie
+    - Sub_Topic: Artificial Stupidity
+      Research_Papers:
+        - Title: Building Safer AGI by introducing Artificial Stupidity
+    - Sub_Topic: Interactive Explanations
+      Research_Papers:
+        - Title: Interactive Explanations Diagnosis and Repair of Reinforcement Learning Based Agent Behaviors
+    - Sub_Topic: Cooperative AI
+      Research_Papers:
+        - Title: "Parametric Bounded L\xF6b's Theorem and Robust Cooperation of Bounded Agents"
+        - Title: Toward negotiable reinforcement learning shifting priorities in Pareto optimal sequential decision-making
+    - Sub_Topic: Bounded Rationality
+      Research_Papers:
+        - Title: Performance of Bounded-Rational Agents With the Ability to Self-Modify
+    - Sub_Topic: Value Alignment Verification
+      Research_Papers:
+        - Title: Value Alignment Verification
+    - Sub_Topic: Trust in AI Systems
+      Research_Papers:
+        - Title: Establishing Appropriate Trust via Critical States
 
 - Main_Topic: Safety and Robustness
   Sub_Topics:
@@ -136,6 +171,13 @@ categories_yaml:
         - Title: Certified Adversarial Defenses Meet Out-of-Distribution Corruptions Benchmarking Robustness and Simple Baselines
         - Title: Certified Patch Robustness via Smoothed Vision Transformers
         - Title: Sufficient Conditions for Idealised Models to Have No Adversarial Examples a Theoretical and Empirical Study with Bayesian Neural Networks
+        - Title: Natural Adversarial Examples
+        - Title: On the Geometry of Adversarial Examples
+        - Title: The LogBarrier adversarial attack making effective use of decision boundary information
+        - Title: Discrete Representations Strengthen Vision Transformer Robustness
+        - Title: Adversarial Attacks Against Medical Deep Learning Systems
+        - Title: Achieving Verified Robustness to Symbol Substitutions via Interval Bound Propagation
+        - Title: Playing the Game of Universal Adversarial Perturbations
     - Sub_Topic: Architecture Search
       Research_Papers:
         - Title: DARTS Differentiable Architecture Search
@@ -149,6 +191,7 @@ categories_yaml:
         - Title: Asymptotic Logical Uncertainty and The Benford Test
         - Title: Safe Reinforcement Learning with Model Uncertainty Estimates
         - Title: Inductive Coherence
+        - Title: Logical Induction
     - Sub_Topic: Safe Exploration
       Research_Papers:
         - Title: Verifiably Safe Exploration for End-to-End Reinforcement Learning
@@ -161,6 +204,7 @@ categories_yaml:
         - Title: Leave no Trace Learning to Reset for Safe and Autonomous Reinforcement Learning
         - Title: Recovery RL Safe Reinforcement Learning with Learned Recovery Zones
         - Title: Safe Reinforcement Learning via Probabilistic Shields
+        - Title: Safely Probabilistically Complete Real-Time Planning and Exploration in Unknown Environments
     - Sub_Topic: Reward Tampering
       Research_Papers:
         - Title: Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective
@@ -200,22 +244,27 @@ categories_yaml:
     - Sub_Topic: Robust Representations
       Research_Papers:
         - Title: Learning Robust Representations by Projecting Superficial Statistics Out
+        - Title: MEMO Test Time Robustness via Adaptation and Augmentation
     - Sub_Topic: Fairness
       Research_Papers:
         - Title: Counterfactual Fairness
     - Sub_Topic: Verification of Neural Networks
       Research_Papers:
         - Title: Algorithms for Verifying Deep Neural Networks
+        - Title: Verification of deep probabilistic models
     - Sub_Topic: Network Pruning
       Research_Papers:
         - Title: Stabilizing the Lottery Ticket Hypothesis
         - Title: Linear Mode Connectivity and the Lottery Ticket Hypothesis
+        - Title: Neuron Shapley Discovering the Responsible Neurons
+        - Title: Deconstructing Lottery Tickets Zeros, Signs, and the Supermask
     - Sub_Topic: Objective Robustness
       Research_Papers:
         - Title: Objective Robustness in Deep Reinforcement Learning
     - Sub_Topic: Data Processing for Robustness
       Research_Papers:
         - Title: AugMix A Simple Data Processing Method to Improve Robustness and Uncertainty
+        - Title: Reinforcement Learning with Augmented Data
     - Sub_Topic: Dynamic Adversarial Training
       Research_Papers:
         - Title: Analyzing Dynamic Adversarial Training Data in the Limit
@@ -225,6 +274,27 @@ categories_yaml:
     - Sub_Topic: Adversarial Threats
       Research_Papers:
         - Title: Reinforcement Learning under Threats
+    - Sub_Topic: Collaborative Agents Robustness
+      Research_Papers:
+        - Title: Evaluating the Robustness of Collaborative Agents
+    - Sub_Topic: Evolutionary Algorithms for Atari
+      Research_Papers:
+        - Title: Evolving simple programs for playing Atari games
+    - Sub_Topic: Atari Safety
+      Research_Papers:
+        - Title: Shielding Atari Games with Bounded Prescience
+    - Sub_Topic: Distribution Shift Robustness
+      Research_Papers:
+        - Title: Certifying Model Accuracy under Distribution Shifts
+    - Sub_Topic: Generalization in Safety-Critical RL
+      Research_Papers:
+        - Title: Generalizing from a few environments in safety-critical reinforcement learning
+    - Sub_Topic: Psychopathological Approaches
+      Research_Papers:
+        - Title: A Psychopathological Approach to Safety Engineering in AI and AGI
+    - Sub_Topic: Human Motion Prediction
+      Research_Papers:
+        - Title: A Hamilton-Jacobi Reachability-Based Framework for Predicting and Analyzing Human Motion for Safe Planning
 
 - Main_Topic: Interpretability, Explainability, and Transparency
   Sub_Topics:
@@ -232,16 +302,21 @@ categories_yaml:
       Research_Papers:
         - Title: Regularizing Black-box Models for Improved Interpretability
         - Title: Right for the Right Reasons Training Differentiable Models by Constraining their Explanations
+        - Title: Training Machine Learning Models by Regularizing their Explanations
     - Sub_Topic: Neural-Symbolic AI
       Research_Papers:
         - Title: Neurosymbolic AI The 3rd Wave
+        - Title: The Next Decade in AI Four Steps Towards Robust Artificial Intelligence
+        - Title: SATNet Bridging deep learning and logical reasoning using a differentiable satisfiability solver
     - Sub_Topic: Neuron Analysis
       Research_Papers:
         - Title: Compositional Explanations of Neurons
+        - Title: Locating and Editing Factual Associations in GPT
     - Sub_Topic: Explanation Methods
       Research_Papers:
         - Title: Explaining Explanations An Overview of Interpretability of Machine Learning
         - Title: Why Should I Trust You? Explaining the Predictions of Any Classifier
+        - Title: Machine Learning Explainability for External Stakeholders
     - Sub_Topic: Model Reconstruction
       Research_Papers:
         - Title: Model Reconstruction from Model Explanations
@@ -251,6 +326,7 @@ categories_yaml:
     - Sub_Topic: Visualizing Neural Networks
       Research_Papers:
         - Title: Visualizing and Understanding Convolutional Networks
+        - Title: How Well do Feature Visualizations Support Causal Understanding of CNN Activations?
     - Sub_Topic: Network Modularity
       Research_Papers:
         - Title: Pruned Neural Networks are Surprisingly Modular
@@ -260,6 +336,9 @@ categories_yaml:
     - Sub_Topic: Sparse Linear Models
       Research_Papers:
         - Title: Leveraging Sparse Linear Layers for Debuggable Deep Networks
+    - Sub_Topic: Human Understanding of Models
+      Research_Papers:
+        - Title: Manipulating and Measuring Model Interpretability
 
 - Main_Topic: Meta-learning, Transfer Learning, and Generalization
   Sub_Topics:
@@ -287,10 +366,13 @@ categories_yaml:
       Research_Papers:
         - Title: Meta-Learning Update Rules for Unsupervised Representation Learning
         - Title: Unsupervised Learning via Meta-Learning
+        - Title: Self-supervised Visual Feature Learning with Deep Neural Networks A Survey
     - Sub_Topic: Few-Shot Learning
       Research_Papers:
         - Title: True Few-Shot Learning with Language Models
         - Title: Meta-Learning with Latent Embedding Optimization
+        - Title: Program Synthesis with Large Language Models
+        - Title: Finetuned Language Models Are Zero-Shot Learners
     - Sub_Topic: Memory-Based Meta-Learning
       Research_Papers:
         - Title: Meta-learning of Sequential Strategies
@@ -298,6 +380,7 @@ categories_yaml:
       Research_Papers:
         - Title: Scaling Laws for Neural Language Models
         - Title: Scaling Laws for Transfer
+        - Title: A Neural Scaling Law from the Dimension of the Data Manifold
     - Sub_Topic: Abstraction Learning
       Research_Papers:
         - Title: Abstraction Learning
@@ -307,6 +390,12 @@ categories_yaml:
     - Sub_Topic: Self-Taught AI
       Research_Papers:
         - Title: Solving the Rubik's Cube Without Human Knowledge
+    - Sub_Topic: Procedural Level Generation
+      Research_Papers:
+        - Title: Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation
+    - Sub_Topic: Symbolic Mathematics
+      Research_Papers:
+        - Title: Deep Learning for Symbolic Mathematics
 
 - Main_Topic: Ethical and Societal Implications of AI
   Sub_Topics:
@@ -350,6 +439,7 @@ categories_yaml:
     - Sub_Topic: Research Publication Risks
       Research_Papers:
         - Title: The Offense-Defense Balance of Scientific Knowledge Does Publishing AI Research Reduce Misuse?
+        - Title: Reducing malicious use of synthetic media research Considerations and potential release practices for machine learning
 
 - Main_Topic: AI Governance and Policy
   Sub_Topics:
@@ -395,10 +485,12 @@ categories_yaml:
       Research_Papers:
         - Title: Reconciling modern machine learning practice and the bias-variance trade-off
         - Title: More Data Can Hurt for Linear Regression Sample-wise Double Descent
+        - Title: Rethinking Bias-Variance Trade-off for Generalization of Neural Networks
     - Sub_Topic: Reinforcement Learning
       Research_Papers:
         - Title: PPO-CMA Proximal Policy Optimization with Covariance Matrix Adaptation
         - Title: Model-Based Reinforcement Learning via Meta-Policy Optimization
+        - Title: Challenges of Real-World Reinforcement Learning
     - Sub_Topic: Self-Attention in Vision Models
       Research_Papers:
         - Title: Stand-Alone Self-Attention in Vision Models
@@ -412,6 +504,15 @@ categories_yaml:
     - Sub_Topic: Neural Machine Translation
       Research_Papers:
         - Title: Google's Neural Machine Translation System Bridging the Gap between Human and Machine Translation
+    - Sub_Topic: Dynamic Control Flow
+      Research_Papers:
+        - Title: Dynamic Control Flow in Large-Scale Machine Learning
+    - Sub_Topic: Hyperparameter Optimization
+      Research_Papers:
+        - Title: Self-Tuning Networks Bilevel Optimization of Hyperparameters using Structured Best-Response Functions
+    - Sub_Topic: Program Synthesis
+      Research_Papers:
+        - Title: Solving Probability and Statistics Problems by Program Synthesis
 
 - Main_Topic: Human-AI Interaction and Collaboration
   Sub_Topics:
@@ -497,3 +598,9 @@ categories_yaml:
     - Sub_Topic: Quantitative Analysis
       Research_Papers:
         - Title: AI safety state of the field through quantitative lens
+
+- Main_Topic: Verification and Validation
+  Sub_Topics:
+    - Sub_Topic: Limits of Verification
+      Research_Papers:
+        - Title: Limits to Verification and Validation of Agentic Behavior
