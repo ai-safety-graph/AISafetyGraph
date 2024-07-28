@@ -1,5 +1,14 @@
 # AI Alignment Research Graph Visualization
 
+![](docs/assets/ai-graph_m.gif)
+
+## Features
+- Interactive graph visualization of AI Alignment Research
+- High-Quality LLM-based segementation of papers
+- Search for papers by title, author, or abstract
+- Filter by year, source, and category
+- Click on a node to view a summary of the topic
+
 
 ## Local Build
 To build locally
