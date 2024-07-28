@@ -36,6 +36,8 @@ npx kill-port 8080
   <img src="docs/assets/LISA.svg" width="100" alt="LISA">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/assets/Apart.png" width="100" alt="Apart Research">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/assets/SAIL.png" alt="SAFE AI London">
 </p>
 
 ------------------
