@@ -1,6 +1,6 @@
 # AI Alignment Research Graph Visualization
 
-<img src="/docs/assets/ai-graph_3_sec.gif" width="100%">
+<img src="/docs/assets/ai_graph_3_sec.gif" width="100%">
 
 ## Features
 - Interactive graph visualization of AI Alignment Research
