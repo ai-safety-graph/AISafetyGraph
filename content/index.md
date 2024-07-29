@@ -1,13 +1,10 @@
-
 ---
-
-
 title: AI Alignment Research Graph
-
 ---
 
+# Welcome to AI Alignment Research Graph
 
-        # Main Topics
+# Main Topics
 
 - [[Value Alignment]]
 - [[Safety and Robustness]]
