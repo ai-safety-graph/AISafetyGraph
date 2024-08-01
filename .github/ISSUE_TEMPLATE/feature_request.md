@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea or improvement for Quartz
+about: Suggest an idea or improvement for AI Alignment Research Paper Graph
 title: ""
 labels: enhancement
 assignees: ""

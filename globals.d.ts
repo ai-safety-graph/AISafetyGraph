@@ -11,3 +11,4 @@ export declare global {
     addCleanup(fn: (...args: any[]) => void)
   }
 }
+
