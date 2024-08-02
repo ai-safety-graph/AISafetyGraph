@@ -1,15 +1,15 @@
 {
   "name": "@jackyzha0/quartz",
-  "description": "AI Alignement Research Paper Graph",
+  "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
   "version": "4.2.4",
   "type": "module",
-  "author": "",
+  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mnm-matin/ai_alignment_graph"
+    "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -35,7 +35,6 @@
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.24.3",
     "@clack/prompts": "^0.7.0",
     "@floating-ui/dom": "^1.6.8",
     "@napi-rs/simple-git": "0.1.16",
@@ -47,7 +46,7 @@
     "esbuild-sass-plugin": "^2.16.1",
     "flexsearch": "0.7.43",
     "github-slugger": "^2.0.0",
-    "globby": "^14.0.1",
+    "globby": "^14.0.2",
     "gray-matter": "^4.0.3",
     "hast-util-to-html": "^9.0.1",
     "hast-util-to-jsx-runtime": "^2.3.0",
@@ -63,7 +62,6 @@
     "preact-render-to-string": "^6.5.5",
     "pretty-bytes": "^6.1.1",
     "pretty-time": "^1.1.0",
-    "react": "^18.3.1",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-citation": "^2.0.0",
@@ -89,7 +87,7 @@
     "toml": "^3.0.0",
     "unified": "^11.0.4",
     "unist-util-visit": "^5.0.0",
-    "vfile": "^6.0.1",
+    "vfile": "^6.0.2",
     "workerpool": "^9.1.2",
     "ws": "^8.18.0",
     "yargs": "^17.7.2"
@@ -102,7 +100,7 @@
     "@types/node": "^20.14.11",
     "@types/pretty-time": "^1.1.5",
     "@types/source-map-support": "^0.5.10",
-    "@types/ws": "^8.5.11",
+    "@types/ws": "^8.5.12",
     "@types/yargs": "^17.0.32",
     "esbuild": "^0.19.9",
     "prettier": "^3.3.2",
