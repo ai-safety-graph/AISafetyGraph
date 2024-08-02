@@ -2,7 +2,16 @@
 
 <img src="/docs/assets/ai_graph_3_sec.gif" width="100%">
 
-Check out the live version here [AI Alignment Research Graph](https://mnm-matin.github.io/ai_alignment_graph/)
+
+
+---
+### 🗓️ 1st August 2024
+# 🏆 **First Place Winner at the [Research Augmentation Hackathon](https://www.apartresearch.com/event/research-augmentation-hackathon-supercharging-ai-alignment)** 🏆
+## 🥇 **We are proud to announce that we secured** **_First Place_** **at the prestigious** **_[Research Augmentation Hackathon: Supercharging AI Alignment](https://www.apartresearch.com/event/research-augmentation-hackathon-supercharging-ai-alignment)_** **event!**
+
+---
+
+## 👉 Check out the live version here: [AI Alignment Research Graph](https://mnm-matin.github.io/ai_alignment_graph/)
 
 ## Features
 - Interactive graph visualization of AI Alignment Research
