@@ -4,10 +4,6 @@ export declare global {
       type: K,
       listener: (this: Document, ev: CustomEventMap[K]) => void,
     ): void
-    removeEventListener<K extends keyof CustomEventMap>(
-      type: K,
-      listener: (this: Document, ev: CustomEventMap[K]) => void,
-    ): void
     dispatchEvent<K extends keyof CustomEventMap>(ev: CustomEventMap[K] | UIEvent): void
   }
   interface Window {
@@ -15,3 +11,4 @@ export declare global {
     addCleanup(fn: (...args: any[]) => void)
   }
 }
+
