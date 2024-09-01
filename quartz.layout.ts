@@ -45,17 +45,16 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: true, // whether to show tags in the graph
       },
     }),
-    // Component.DesktopOnly(Component.TableOfContents()),
-    // Component.Backlinks(),
-    // Component.Breadcrumbs(),
     // Component.ArticleTitle(),
-    // Component.ContentMeta(),
-    // Component.TagList(),
   ],
   left: [
+    Component.Breadcrumbs(),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
+    Component.ContentMeta(),
+    Component.TagList(),
+    
     Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
@@ -78,6 +77,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [
-  ],
+  right: [],
 }
