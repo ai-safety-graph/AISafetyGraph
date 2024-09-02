@@ -1,17 +1,27 @@
-# AI Alignment Research Graph Visualization
+# AI Alignment Graph
 
 <img src="/docs/assets/ai_graph_3_sec.gif" width="100%">
 
-
-
 ---
-### 🗓️ 1st August 2024
-# 🏆 **First Place Winner at the [Research Augmentation Hackathon](https://www.apartresearch.com/event/research-augmentation-hackathon-supercharging-ai-alignment)** 🏆
-## 🥇 **We are proud to announce that we secured** **_First Place_** **at the prestigious** **_[Research Augmentation Hackathon: Supercharging AI Alignment](https://www.apartresearch.com/event/research-augmentation-hackathon-supercharging-ai-alignment)_** **event!**
+##### 🗓️ 1st August 2024
+#### 🥇 **We are proud to announce that we secured** **_First Place_** **at the prestigious** **_[Research Augmentation Hackathon: Supercharging AI Alignment](https://www.apartresearch.com/event/research-augmentation-hackathon-supercharging-ai-alignment)_** **event!**
 
 ---
 
-## 👉 Check out the live version here: [AI Alignment Research Graph](https://mnm-matin.github.io/ai_alignment_graph/)
+#### 👉 Check out the live version here: [AI Alignment Research Graph][live-gh-pages]
+
+## 👋🏻 Getting Started & Join Our Community
+
+Whether you're a newcomer or a seasoned researcher, we have a place for you in our community. Here are some ways to get started:
+
+| [![live-demo-badge]][live-gh-pages]  | Visit the website                       |
+| :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [![][discord-shield-badge]][discord-link] | Join our Discord community!  |
+
+
+> \[!IMPORTANT]
+>
+> **Star Us**, to get updates from GitHub \~ ⭐️
 
 ## Features
 - Interactive graph visualization of AI Alignment Research
@@ -42,10 +52,7 @@ npx kill-port 8080
 - generating .md files requires a anthropic api key to be stored in ```/generate_md/.env``` file
 
 ## Contributors
-- Matin
-- Samuel
-- Sruthi and 
-- Pandelis
+... add contributor graph here
 
 ## Acknowledgements
 - Thanks to [alignment-research-dataset](https://github.com/moirage/alignment-research-dataset) for the dataset
@@ -71,3 +78,12 @@ TODO:
 Improvements:
 - [ ] [explore_ds.py](/generate_md/explore_ds.py) currently filters by arxiv papers, could also support other sources
 - [ ] Chatbot to the right side of the page for some questioning...
+
+<!-- LINK GROUP -->
+
+[live-gh-pages]: https://mnm-matin.github.io/ai_alignment_graph/
+[discord-link]: https://discord.gg/skqQ8y4quR
+[discord-shield-badge]: https://img.shields.io/discord/1275110552661659658?style=for-the-badge&logo=discord&logoColor=white&label=discord&labelColor=black
+[live-demo-badge]: https://img.shields.io/badge/Live%20Demo-Visit-brightgreen?style=for-the-badge&logo=web&logoColor=white&labelColor=black
+
+
