@@ -8,6 +8,7 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
+import Landing from './Landing'
 
 interface RenderComponents {
   head: QuartzComponent
@@ -212,43 +213,41 @@ export function renderPage(
     </div>
   )
 
+  const LandingComponent = Landing()
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div id="quartz-root" class="page">
-          <Body {...componentData}>
-            {LeftComponent}
-            <div class="center">
-              <div class="page-header">
-                <Header {...componentData}>
-                  {header.map((HeaderComponent) => (
-                    <HeaderComponent {...componentData} />
-                  ))}
-                </Header>
-                <div class="popover-hint">
-                  {beforeBody.map((BodyComponent) => (
-                    <BodyComponent {...componentData} />
-                  ))}
+      {slug === "index" && <LandingComponent {...componentData} />}
+      {slug !== "index" && (
+          <div id="quartz-root" className="page">
+            <Body {...componentData}>
+              {LeftComponent}
+              <div className="center">
+                <div className="page-header">
+                  <Header {...componentData}>
+                    {header.map((HeaderComponent) => (
+                        <HeaderComponent {...componentData} />
+                    ))}
+                  </Header>
+                  <div className="popover-hint">
+                    {beforeBody.map((BodyComponent) => (
+                        <BodyComponent {...componentData} />
+                    ))}
+                  </div>
                 </div>
+                <Content {...componentData} />
               </div>
-              <Content {...componentData} />
-              <hr />
-              <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
-            </div>
-            {RightComponent}
-          </Body>
-          <Footer {...componentData} />
-        </div>
+              {RightComponent}
+            </Body>
+            <Footer {...componentData} />
+          </div>
+      )}
       </body>
       {pageResources.js
-        .filter((resource) => resource.loadTime === "afterDOMReady")
-        .map((res) => JSResourceToScriptElement(res))}
+          .filter((resource) => resource.loadTime === "afterDOMReady")
+          .map((res) => JSResourceToScriptElement(res))}
     </html>
   )
 

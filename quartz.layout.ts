@@ -54,7 +54,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.ContentMeta(),
     Component.TagList(),
-    
+
     Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

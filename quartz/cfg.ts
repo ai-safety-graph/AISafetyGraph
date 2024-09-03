@@ -48,7 +48,7 @@ export interface GlobalConfiguration {
   /** Analytics mode */
   analytics: Analytics
   /** Glob patterns to not search */
-  ignoatterns: string[]
+  ignorePatterns: string[]
   /** Whether to use created, modified, or published as the default type of date */
   defaultDateType: ValidDateType
   /** Base URL to use for CNAME files, sitemaps, and RSS feeds that require an absolute URL.
@@ -83,7 +83,7 @@ export interface FullPageLayout {
   footer: QuartzComponent
 }
 
-export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right" >
+export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right">
 // export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left">
 
 export type SharedLayout = Pick<FullPageLayout, "head" | "header" | "footer" | "afterBody">
