@@ -1,11 +1,14 @@
-import { QuartzComponentConstructor } from "./types"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import landingStyle from './styles/landing.scss'
+import Search from "./Search"
 
 
 export default (() => {
-  function Landing() {
+  const SearchComponent = Search()
+  function Landing(componentData: QuartzComponentProps) {
     return (
       <div>
+        <SearchComponent {... componentData}/>
         <div class="content-container">
           <p class="landing-header">Landing Page</p>
         </div>
