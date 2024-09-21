@@ -1,7 +1,108 @@
-.landing-header {
-  font-size: 48px;
-  margin: 64px 0 8px 0;
-  font-family: "Tiempos", sans-serif;
-  font-weight: 700;
-  line-height: normal;
+// .landing-header {
+//   font-size: 48px;
+//   margin: 64px 0 8px 0;
+//   font-family: "Tiempos", sans-serif;
+//   font-weight: 700;
+//   line-height: normal;
+// }
+
+// .container {
+//   width: 75%;
+//   margin: 0 auto;
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Tiempos", sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-left: 1rem;
+      }
+    }
+  }
+
+
+.hero {
+  padding: 3rem 0;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  .left {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1.5rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .right {
+    flex: 2;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.content {
+  padding: 2rem 0;
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+}
+
