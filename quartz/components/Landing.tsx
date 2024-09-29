@@ -70,22 +70,18 @@ export default (() => {
         </div>
       </div>
       <div class="right">
-      <div class="graph-container">
         <GraphComponent {...componentData} />
-        </div>
       </div>
     </div>
   </section>
-  <section class="content">
+  <section class="search-content">
     <div class="container">
-      <h2>Content Section</h2>
-      <p>This is the content section below the hero.</p>
+      <h2>Search through hundreds of research papers on AI</h2>
+      <div class="search-wrapper-alt">
+        <SearchComponent {...componentData}/>
+        </div>
     </div>
   </section>
-        <SearchComponent {...componentData}/>
-        <div class="content-container">
-          <p class="landing-header">Landing Page</p>
-        </div>
         <FooterComponent {...componentData}/>
       </>
     )
@@ -96,3 +92,13 @@ export default (() => {
 }) satisfies QuartzComponentConstructor
 
 // I need this component to abide to the theme rules of the quartz build.
+// If possible remove 'graph view' from graph
+// Center align 'left' content of hero
+// Add Icon links
+// Seperate Icon Links from night mode
+// Add footer
+// Adjust Graph configs
+// Add Search bar with custom animated background
+// To style the search bar via css rules specific to this page only.
+// Maybe sticky search section to top of page
+// Dark mode toggle between pages when coming from landing page.
