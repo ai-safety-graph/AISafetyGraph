@@ -65,8 +65,10 @@ export default (() => {
     <div class="container hero-content">
       <div class="left">
         <div class="left-container">
-        <h2>Plan Ahead for AI</h2>
-        <h3>Using our interactive graph linking 100s of AI research papers together.</h3>
+        <h2>Plan Ahead for AI, with AI</h2>
+        <p>Dive into the dynamic world of AI Alignment Research with our interactive tool!</p>
+        <p> Our platform is designed to make navigating the complex landscape of AI alignment easier and more intuitive for everyone—from newcomers to seasoned researchers.</p>
+        <p>Explore the relationships between various topics and subtopics in AI alignment through a visually engaging and interactive graph.</p>
         </div>
       </div>
       <div class="right">
@@ -82,6 +84,99 @@ export default (() => {
         </div>
     </div>
   </section>
+  <section class="getting-started">
+    <div class="container">
+    <h2>Can't decide where to start? We've picked some papers to get you connected.</h2>
+    <div class="card-row">
+      <a href="/value-alignment">
+      <div class="card">
+        <p>Value Alignment</p>
+      </div>
+      </a>
+      <a href="/safety-and-robustness">
+      <div class="card">
+        <p>Safety and Robustness</p>
+      </div>
+      </a>
+      <a href="/Interpretability,-Explainability,-and-Transparency">
+      <div class="card">
+        <p>Interpretability, Explainability, and Transparency</p>
+      </div>
+      </a>
+      <a href="/Meta-learning,-Transfer-Learning,-and-Generalization">
+      <div class="card">
+        <p>Meta-learning, Transfer Learning, and Generalization</p>
+      </div>
+      </a>
+    </div>
+    <div class="card-row">
+      <a href="/Ethical-and-Societal-Implications-of-AI">
+      <div class="card">
+        <p>Ethical and Societal Implications of AI</p>
+      </div>
+      </a>
+      <a href="/AI-Governance-and-Policy">
+      <div class="card">
+        <p>AI Governance and Policy</p>
+      </div>
+      </a>
+      <a href="/AI-Architectures-and-Training-Methods">
+      <div class="card">
+        <p>AI Architectures and Training Methods</p>
+      </div>
+      </a>
+      <a href="/Human-AI-Interaction-and-Collaboration">
+      <div class="card">
+        <p>Human-AI Interaction and Collaboration</p>
+      </div>
+      </a>
+    </div>
+    <div class="card-row">
+      <a href="/Theoretical-Foundations-of-AI">
+      <div class="card">
+        <p>Theoretical Foundations of AI</p>
+      </div>
+      </a>
+      <a href="/AI-Benchmarks-and-Evaluation">
+      <div class="card">
+        <p>AI Benchmarks and Evaluation</p>
+      </div>
+      </a>
+      <a href="/AI-Security-and-Privacy">
+      <div class="card">
+        <p>AI System Design and Governance</p>
+      </div>
+      </a>
+      <a href="/AI-Security-and-Privacy">
+      <div class="card">
+        <p>AI Security and Privacy</p>
+      </div>
+      </a>
+    </div>
+    <div class="card-row">
+      <a href="/Biological-Inspiration-in-AI">
+      <div class="card">
+        <p>Biological Inspiration in AI</p>
+      </div>
+      </a>
+      <a href="/Relational-Reasoning">
+      <div class="card">
+        <p>Relational Reasoning</p>
+      </div>
+      </a>
+      <a href="/AI-Safety-State-Analysis">
+      <div class="card">
+        <p>AI Safety State Analysis</p>
+      </div>
+      </a>
+      <a href="/verification-and-validation">
+      <div class="card">
+        <p>Verification and Validation</p>
+      </div>
+      </a>
+    </div>
+    </div>
+  </section>
         <FooterComponent {...componentData}/>
       </>
     )
@@ -95,10 +190,10 @@ export default (() => {
 // If possible remove 'graph view' from graph
 // Center align 'left' content of hero
 // Add Icon links
-// Seperate Icon Links from night mode
 // Add footer
 // Adjust Graph configs
-// Add Search bar with custom animated background
 // To style the search bar via css rules specific to this page only.
 // Maybe sticky search section to top of page
 // Dark mode toggle between pages when coming from landing page.
+
+// Add this effect https://www.fffuel.co/svg-spinner/ to content section: 'making connections'

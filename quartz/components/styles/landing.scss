@@ -43,29 +43,39 @@ body {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    height: 100%;
   }
 
 
   .left {
     flex: 1;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     padding-right: 1.5rem;
+    min-height: 100%;
 
     h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
     }
 
     p {
       font-size: 1.1rem;
+      font-weight: 500;
+      line-height: 1.8rem;
+      margin: 0;
+      margin-bottom: 3rem;
+      margin-right: 2rem;
+
     }
   }
 
   .right {
     flex: 2;
 
-    h2 {
+    h3 {
       font-size: 2rem;
+      display: none;
     }
 
     p {
@@ -79,7 +89,6 @@ body {
   background: radial-gradient( #23a6d5, #23d5ab, #00A36C);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-// height: 100vh;
   
   .container {
     max-width: 1200px;
@@ -129,10 +138,47 @@ body {
         }
       }
     }
+  }
+}
 
-
+.getting-started {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+}
+
+.card {
+  min-width: 225px;
+  min-height: 225px;
+  max-width: 225px;
+  max-height: 225px;
+  display: flex;
+  padding: 20px;
+  border-radius: 15px;
+  border: solid 1px black;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  margin-bottom: 2rem;
 }
 
 @keyframes gradient {
