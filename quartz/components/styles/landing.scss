@@ -96,6 +96,8 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   h2 {
@@ -143,7 +145,7 @@ body {
 
 .getting-started {
   .container {
-    max-width: 1200px;
+    max-width: 1075px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -151,27 +153,31 @@ body {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
+    text-align: center;
   }
 }
 
 .card {
   min-width: 225px;
-  min-height: 225px;
+  min-height: 150px;
   max-width: 225px;
-  max-height: 225px;
+  max-height: 150px;
   display: flex;
   padding: 20px;
-  border-radius: 15px;
-  border: solid 1px black;
+  border-radius: 10px;
+  border: solid 1px #23d5ab;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   p {
     font-size: 1.2rem;
+    font-weight: 300;
   }
+
 }
 
 .card-row {
@@ -179,6 +185,47 @@ body {
   justify-content: space-around;
   min-width: 100%;
   margin-bottom: 2rem;
+}
+
+.about {
+  padding: 3rem 0;
+  width: 100%;
+
+  .container {
+    max-width: 1075px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 1.8rem;
+  };
+
+  .left {
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: baseline;
+  }
+
+  .icon-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 175px;
+  }
+
+  
 }
 
 @keyframes gradient {
@@ -191,4 +238,32 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    stroke-dasharray: 1, 800;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 400, 400;
+    stroke-dashoffset: -200px;
+  }
+  100% {
+    stroke-dasharray: 800, 1;
+    stroke-dashoffset: -800px;
+  }
+}
+
+.spin2 {
+  transform-origin: center;
+  animation: spin2 1.5s ease-in-out infinite,
+    spin 2s linear infinite;
+  animation-direction: alternate;
 }
