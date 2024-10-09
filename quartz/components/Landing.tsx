@@ -1,3 +1,5 @@
+// BUG: VM82173:1 Uncaught SyntaxError: Identifier 'socket' has already been declared
+
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import landingStyle from "./styles/landing.scss"
 import Search from "./Search"
@@ -86,7 +88,7 @@ export default (() => {
   </section>
   <section class="getting-started">
     <div class="container">
-    <h2>Can't decide where to start? We've picked some papers to get you connected.</h2>
+    <h2 style='font-weight: 500'>Can't decide where to start? We've picked some papers to get you connected.</h2>
     <div class="card-row">
       <a href="/value-alignment">
       <div class="card">
@@ -180,8 +182,10 @@ export default (() => {
   <section class="about">
     <div class='container'>
       <div class="left">
+        <div class='left-content'>
         <h3>About the Alignment Project</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam, maxime dicta corporis molestias id nemo! Consectetur accusamus, temporibus sit hic id ut. Ipsa rem autem nobis voluptate at ab.</p>
+      </div>
       </div>
       <div class="right">
         <h3>Join us on</h3>
@@ -192,6 +196,8 @@ export default (() => {
       </div>
     </div>
   </section>
+  <section class='footer'>
+    <div class="container">
   {/* <div class="svg-container" style='height: 150px; width: 150px'> */}
   {/* <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
     <circle class="spin2" cx="400" cy="400" fill="none"
@@ -201,6 +207,8 @@ export default (() => {
   </svg> */}
   {/* </div> */}
         <FooterComponent {...componentData}/>
+        </div>
+        </section>
       </>
     )
   }

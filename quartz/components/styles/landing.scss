@@ -14,18 +14,24 @@ body {
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     max-width: 1200px;
     margin: 0 auto;
   }
 
   .logo {
     font-size: 1rem;
+    padding-bottom: 10px;
   }
 
   .nav-links {
     list-style: none;
     display: flex;
+    // align-items: baseline;
+
+    ul {
+      align-items: baseline;
+    }
 
     li {
       margin-left: 1rem;
@@ -161,9 +167,9 @@ body {
 }
 
 .card {
-  min-width: 225px;
+  min-width: 230px;
   min-height: 150px;
-  max-width: 225px;
+  max-width: 230px;
   max-height: 150px;
   display: flex;
   padding: 20px;
@@ -172,13 +178,20 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: box-shadow 0.3s;
+  
 
   p {
     font-size: 1.2rem;
     font-weight: 300;
   }
 
+  &:hover {
+    box-shadow: 2px 2px 2px  #00A36C !important;
+    border-width: 2px !important;
+  }
 }
+
 
 .card-row {
   display: flex;
@@ -208,6 +221,7 @@ body {
   .left {
     flex-direction: column;
     flex: 1;
+    justify-content: center;
   }
 
   .right {
@@ -226,6 +240,19 @@ body {
   }
 
   
+}
+
+.footer {
+  padding: 3rem 0;
+  width: 100%;
+
+  .container {
+    max-width: 1075px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @keyframes gradient {
