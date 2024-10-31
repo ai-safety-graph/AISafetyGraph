@@ -88,7 +88,7 @@ export default (() => {
   </section>
   <section class="getting-started">
     <div class="container">
-    <h2 style='font-weight: 500'>Can't decide where to start? We've picked some papers to get you connected.</h2>
+    <h2 style='font-weight: 500'>Can't decide where to start? We've picked some starter papers to get you connected.</h2>
     <div class="card-row">
       <a href="/value-alignment">
       <div class="card">
