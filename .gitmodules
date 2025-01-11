@@ -1,0 +1,3 @@
+[submodule "aisgraph_quartz"]
+	path = aisgraph_quartz
+	url = https://github.com/ai-safety-graph/aisgraph.git
