@@ -1,4 +1,0 @@
-# Ontological Crises in Artificial Agents' Value Systems
-http://arxiv.org/abs/1105.3821v1
-## Abstract
-Decision-theoretic agents predict and evaluate the results of their actions using a model, or ontology, of their environment. An agent's goal, or utility function, may also be specified in terms of the states of, or entities within, its ontology. If the agent may upgrade or replace its ontology, it faces a crisis the agent's original goal may not be well-defined with respect to its new ontology. This crisis must be resolved before the agent can make plans towards achieving its goals.   We discuss in this paper which sorts of agents will undergo ontological crises and why we may want to create such agents. We present some concrete examples, and argue that a well-defined procedure for resolving ontological crises is needed. We point to some possible approaches to solving this problem, and evaluate these methods on our examples.

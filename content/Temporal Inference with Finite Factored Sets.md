@@ -1,4 +1,0 @@
-# Temporal Inference with Finite Factored Sets
-http://arxiv.org/abs/2109.11513v1
-## Abstract
-We propose a new approach to temporal inference, inspired by the Pearlian causal inference paradigm - though quite different from Pearl's approach formally. Rather than using directed acyclic graphs, we make use of factored sets, which are sets expressed as Cartesian products. We show that finite factored sets are powerful tools for inferring temporal relations. We introduce an analog of d-separation for factored sets, conditional orthogonality, and we demonstrate that this notion is equivalent to conditional independence in all probability distributions on a finite factored set.

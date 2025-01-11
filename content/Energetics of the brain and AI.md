@@ -1,4 +1,0 @@
-# Energetics of the brain and AI
-http://arxiv.org/abs/1602.04019v1
-## Abstract
-Does the energy requirements for the human brain give energy constraints that give reason to doubt the feasibility of artificial intelligence? This report will review some relevant estimates of brain bioenergetics and analyze some of the methods of estimating brain emulation energy requirements. Turning to AI, there are reasons to believe the energy requirements for de novo AI to have little correlation with brain (emulation) energy requirements since cost could depend merely of the cost of processing higher-level representations rather than billions of neural firings. Unless one thinks the human way of thinking is the most optimal or most easily implementable way of achieving software intelligence, we should expect de novo AI to make use of different, potentially very compressed and fast, processes.

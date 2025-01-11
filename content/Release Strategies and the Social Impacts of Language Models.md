@@ -1,4 +1,0 @@
-# Release Strategies and the Social Impacts of Language Models
-http://arxiv.org/abs/1908.09203v2
-## Abstract
-Large language models have a range of beneficial uses they can assist in prose, poetry, and programming; analyze dataset biases; and more. However, their flexibility and generative capabilities also raise misuse concerns. This report discusses OpenAI's work related to the release of its GPT-2 language model. It discusses staged release, which allows time between model releases to conduct risk and benefit analyses as model sizes increased. It also discusses ongoing partnership-based research and provides recommendations for better coordination and responsible publication in AI.

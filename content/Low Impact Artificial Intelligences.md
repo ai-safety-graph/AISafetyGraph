@@ -1,4 +1,0 @@
-# Low Impact Artificial Intelligences
-http://arxiv.org/abs/1705.10720v1
-## Abstract
-There are many goals for an AI that could become dangerous if the AI becomes superintelligent or otherwise powerful. Much work on the AI control problem has been focused on constructing AI goals that are safe even for such AIs. This paper looks at an alternative approach defining a general concept of low impact'. The aim is to ensure that a powerful AI which implements low impact will not modify the world extensively, even if it is given a simple or dangerous goal. The paper proposes various ways of defining and grounding low impact, and discusses methods for ensuring that the AI can still be allowed to have a (desired) impact despite the restriction. The end of the paper addresses known issues with this approach and avenues for future research.

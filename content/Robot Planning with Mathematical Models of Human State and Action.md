@@ -1,4 +1,0 @@
-# Robot Planning with Mathematical Models of Human State and Action
-http://arxiv.org/abs/1705.04226v2
-## Abstract
-Robots interacting with the physical world plan with models of physics. We advocate that robots interacting with people need to plan with models of cognition. This writeup summarizes the insights we have gained in integrating computational cognitive models of people into robotics planning and control. It starts from a general game-theoretic formulation of interaction, and analyzes how different approximations result in different useful coordination behaviors for the robot during its interaction with people.

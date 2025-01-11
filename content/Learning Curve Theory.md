@@ -1,4 +1,0 @@
-# Learning Curve Theory
-http://arxiv.org/abs/2102.04074v1
-## Abstract
-Recently a number of empirical universal scaling law papers have been published, most notably by OpenAI. Scaling laws' refers to power-law decreases of training or test error w.r.t. more data, larger neural networks, and/or more compute. In this work we focus on scaling w.r.t. data size $n$. Theoretical understanding of this phenomenon is largely lacking, except in finite-dimensional models for which error typically decreases with $n^{-1/2}$ or $n^{-1}$, where $n$ is the sample size. We develop and theoretically analyse the simplest possible (toy) model that can exhibit $n^{-\beta}$ learning curves for arbitrary power $\beta>0$, and determine whether power laws are universal or depend on the data distribution.

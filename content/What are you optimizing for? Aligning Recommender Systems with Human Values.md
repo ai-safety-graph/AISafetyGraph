@@ -1,4 +1,0 @@
-# What are you optimizing for? Aligning Recommender Systems with Human Values
-http://arxiv.org/abs/2107.10939v1
-## Abstract
-We describe cases where real recommender systems were modified in the service of various human values such as diversity, fairness, well-being, time well spent, and factual accuracy. From this we identify the current practice of values engineering the creation of classifiers from human-created data with value-based labels. This has worked in practice for a variety of issues, but problems are addressed one at a time, and users and other stakeholders have seldom been involved. Instead, we look to AI alignment work for approaches that could learn complex values directly from stakeholders, and identify four major directions useful measures of alignment, participatory design and operation, interactive value learning, and informed deliberative judgments.

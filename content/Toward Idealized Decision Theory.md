@@ -1,4 +1,0 @@
-# Toward Idealized Decision Theory
-http://arxiv.org/abs/1507.01986v1
-## Abstract
-This paper motivates the study of decision theory as necessary for aligning smarter-than-human artificial systems with human interests. We discuss the shortcomings of two standard formulations of decision theory, and demonstrate that they cannot be used to describe an idealized decision procedure suitable for approximation by artificial systems. We then explore the notions of policy selection and logical counterfactuals, two recent insights into decision theory that point the way toward promising paths for future research.

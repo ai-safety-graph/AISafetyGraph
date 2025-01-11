@@ -1,4 +1,0 @@
-# Multi-task Maximum Entropy Inverse Reinforcement Learning
-http://arxiv.org/abs/1805.08882v2
-## Abstract
-Multi-task Inverse Reinforcement Learning (IRL) is the problem of inferring multiple reward functions from expert demonstrations. Prior work, built on Bayesian IRL, is unable to scale to complex environments due to computational constraints. This paper contributes a formulation of multi-task IRL in the more computationally efficient Maximum Causal Entropy (MCE) IRL framework. Experiments show our approach can perform one-shot imitation learning in a gridworld environment that single-task IRL algorithms need hundreds of demonstrations to solve. We outline preliminary work using meta-learning to extend our method to the function approximator setting of modern MCE IRL algorithms. Evaluating on multi-task variants of common simulated robotics benchmarks, we discover serious limitations of these IRL algorithms, and conclude with suggestions for further work.

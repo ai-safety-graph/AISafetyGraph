@@ -1,4 +1,0 @@
-# Indifference methods for managing agent rewards
-http://arxiv.org/abs/1712.06365v4
-## Abstract
-Indifference' refers to a class of methods used to control reward based agents. Indifference techniques aim to achieve one or more of three distinct goals rewards dependent on certain events (without the agent being motivated to manipulate the probability of those events), effective disbelief (where agents behave as if particular events could never happen), and seamless transition from one reward function to another (with the agent acting as if this change is unanticipated). This paper presents several methods for achieving these goals in the POMDP setting, establishing their uses, strengths, and requirements. These methods of control work even when the implications of the agent's reward are otherwise not fully understood.

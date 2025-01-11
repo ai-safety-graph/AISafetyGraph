@@ -1,4 +1,0 @@
-# Algorithms for Verifying Deep Neural Networks
-http://arxiv.org/abs/1903.06758v2
-## Abstract
-Deep neural networks are widely used for nonlinear function approximation with applications ranging from computer vision to control. Although these networks involve the composition of simple arithmetic operations, it can be very challenging to verify whether a particular network satisfies certain input-output properties. This article surveys methods that have emerged recently for soundly verifying such properties. These methods borrow insights from reachability analysis, optimization, and search. We discuss fundamental differences and connections between existing algorithms. In addition, we provide pedagogical implementations of existing methods and compare them on a set of benchmark problems.

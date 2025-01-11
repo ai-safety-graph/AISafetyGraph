@@ -1,4 +1,0 @@
-# Reinforcement Learning under Threats
-http://arxiv.org/abs/1809.01560v2
-## Abstract
-In several reinforcement learning (RL) scenarios, mainly in security settings, there may be adversaries trying to interfere with the reward generating process. In this paper, we introduce Threatened Markov Decision Processes (TMDPs), which provide a framework to support a decision maker against a potential adversary in RL. Furthermore, we propose a level-$k$ thinking scheme resulting in a new learning framework to deal with TMDPs. After introducing our framework and deriving theoretical results, relevant empirical evidence is given via extensive experiments, showing the benefits of accounting for adversaries while the agent learns.

@@ -1,4 +1,0 @@
-# Leveraging Sparse Linear Layers for Debuggable Deep Networks
-http://arxiv.org/abs/2105.04857v1
-## Abstract
-We show how fitting sparse linear models over learned deep feature representations can lead to more debuggable neural networks. These networks remain highly accurate while also being more amenable to human interpretation, as we demonstrate quantiatively via numerical and human experiments. We further illustrate how the resulting sparse explanations can help to identify spurious correlations, explain misclassifications, and diagnose model biases in vision and language tasks. The code for our toolkit can be found at https//github.com/madrylab/debuggabledeepnetworks.
