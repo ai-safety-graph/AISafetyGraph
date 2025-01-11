@@ -19,28 +19,37 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repository with Submodules
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch all history for git info
+          fetch-depth: 0
+          submodules: 'recursive'
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: '22'
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: aisgraph_quartz/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('aisgraph_quartz/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install Dependencies
         run: npm ci
-        working-directory: aisgraph_quartz  # Set working directory
+        working-directory: aisgraph_quartz
 
       - name: Build Quartz
         run: npx quartz build
-        working-directory: aisgraph_quartz  # Set working directory
+        working-directory: aisgraph_quartz
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: aisgraph_quartz/public  # Updated path to public directory
+          path: aisgraph_quartz/public
 
   deploy:
     needs: build
@@ -50,6 +59,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Download Pages Artifact
+        uses: actions/download-pages-artifact@v3
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
