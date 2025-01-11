@@ -1,4 +1,4 @@
-# AI Alignment Graph
+# AI Safety Graph
 
 <img src="/docs/assets/ai_graph_3_sec.gif" width="100%">
 
