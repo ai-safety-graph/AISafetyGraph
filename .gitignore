@@ -11,5 +11,6 @@ private/
 replit.nix
 
 # Python
+.venv
 .env
 env
