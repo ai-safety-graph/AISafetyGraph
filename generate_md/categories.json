@@ -1,0 +1,957 @@
+{
+  "Safety and Robustness": {
+    "Adversarial Machine Learning": [
+      "Quantifying Perceptual Distortion of Adversarial Examples",
+      "Transfer of Adversarial Robustness Between Perturbation Types",
+      "Pyramid Adversarial Training Improves ViT Performance",
+      "Adversarial Logit Pairing",
+      "No Metrics Are Perfect Adversarial Reward Learning for Visual Storytelling",
+      "Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment",
+      "An Alternative Surrogate Loss for PGD-based Adversarial Testing",
+      "Fortified Networks Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations",
+      "BERT-ATTACK: Adversarial Attack Against BERT Using BERT",
+      "Testing Robustness Against Unforeseen Adversaries",
+      "A Marauder's Map of Security and Privacy in Machine Learning",
+      "Analyzing Dynamic Adversarial Training Data in the Limit",
+      "Reinforcement Learning under Threats",
+      "Natural Adversarial Examples",
+      "On the Geometry of Adversarial Examples",
+      "The LogBarrier adversarial attack making effective use of decision boundary information",
+      "Adversarial Attacks Against Medical Deep Learning Systems",
+      "Playing the Game of Universal Adversarial Perturbations",
+      "Adversarial Examples Are a Natural Consequence of Test Error in Noise",
+      "A Geometric Perspective on the Transferability of Adversarial Directions",
+      "Adversarial Examples Are Not Bugs, They Are Features",
+      "Adversarial Attacks and Defences Competition",
+      "Adversarial Reprogramming of Neural Networks",
+      "First-order Adversarial Vulnerability of Neural Networks and Input Dimension",
+      "Evaluating and Understanding the Robustness of Adversarial Logit Pairing",
+      "On Adversarial Examples for Character-Level Neural Machine Translation",
+      "Towards the first adversarially robust neural network model on MNIST",
+      "Gradient-based Adversarial Attacks against Text Transformers"
+    ],
+    "Uncertainty Quantification": [
+      "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift",
+      "Safe Reinforcement Learning with Model Uncertainty Estimates",
+      "Towards Better Interpretability in Deep Q-Networks",
+      "Revisiting the Calibration of Modern Neural Networks",
+      "Soft Calibration Objectives for Neural Networks",
+      "Hybrid Models with Deep and Invertible Features",
+      "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+      "Successor Uncertainties: Exploration and Uncertainty in Temporal Difference Learning",
+      "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
+      "The Conditional Entropy Bottleneck"
+    ],
+    "Robustness to Distributional Shift": [
+      "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift",
+      "Learning Invariances for Policy Generalization",
+      "An Optimistic Perspective on Offline Reinforcement Learning",
+      "Learning Robust Representations by Projecting Superficial Statistics Out",
+      "CEB Improves Model Robustness",
+      "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty",
+      "Rethinking Bias-Variance Trade-off for Generalization of Neural Networks",
+      "MEMO: Test Time Robustness via Adaptation and Augmentation",
+      "Certifying Model Accuracy under Distribution Shifts",
+      "Discrete Representations Strengthen Vision Transformer Robustness",
+      "Achieving Verified Robustness to Symbol Substitutions via Interval Bound Propagation",
+      "A Roadmap for Robust End-to-End Alignment",
+      "3D Common Corruptions and Data Augmentation",
+      "Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels",
+      "Detection of Dataset Shifts in Learning-Enabled Cyber-Physical Systems using Variational Autoencoder for Regression",
+      "Deep Ensembles A Loss Landscape Perspective",
+      "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
+      "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness"
+    ],
+    "Safe Exploration": [
+      "Verifiably Safe Exploration for End-to-End Reinforcement Learning",
+      "Safe Deep RL in 3D Environments using Human Feedback",
+      "Safely Probabilistically Complete Real-Time Planning and Exploration in Unknown Environments",
+      "SafeLife 1.0 Exploring Side Effects in Complex Environments",
+      "Learning-based Model Predictive Control for Safe Exploration"
+    ],
+    "Safe Reinforcement Learning": [
+      "AI Safety Gridworlds",
+      "Safe Reinforcement Learning with Model Uncertainty Estimates",
+      "Safe Reinforcement Learning by Imagining the Near Future",
+      "Active Reinforcement Learning with Monte-Carlo Tree Search",
+      "Curiosity Killed or Incapacitated the Cat and the Asymptotically Optimal Agent",
+      "Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning",
+      "Recovery RL: Safe Reinforcement Learning with Learned Recovery Zones",
+      "Safe Reinforcement Learning via Probabilistic Shields",
+      "Evaluating the Robustness of Collaborative Agents",
+      "Shielding Atari Games with Bounded Prescience",
+      "Generalizing from a few environments in safety-critical reinforcement learning",
+      "Learning to be Safe Deep RL with a Safety Critic",
+      "Directed Policy Gradient for Safe Reinforcement Learning with Human Advice",
+      "Safe Reinforcement Learning with Natural Language Constraints",
+      "Learning Safe Policies with Expert Guidance",
+      "Safe Option-Critic Learning Safety in the Option-Critic Architecture",
+      "Trial without Error Towards Safe Reinforcement Learning via Human Intervention",
+      "REALab An Embedded Perspective on Tampering",
+      "Towards Safe Reinforcement Learning with a Safety Editor Policy",
+      "Neurosymbolic Reinforcement Learning with Formally Verified Exploration",
+      "Safety Aware Reinforcement Learning (SARL)",
+      "Formal Language Constraints for Markov Decision Processes",
+      "A Strongly Asymptotically Optimal Agent in General Environments"
+    ],
+    "Out-of-Distribution Detection": [
+      "Likelihood Ratios for Out-of-Distribution Detection",
+      "VOS Learning What You Don't Know by Virtual Outlier Synthesis",
+      "Predicting Out-of-Distribution Error with the Projection Norm",
+      "Do Deep Generative Models Know What They Don't Know?",
+      "Estimating the Brittleness of AI Safety Integrity Levels and the Need for Testing Out-Of-Distribution Performance",
+      "Triggering Failures Out-Of-Distribution detection by learning from local adversarial attacks in Semantic Segmentation",
+      "Provably Robust Detection of Out-of-distribution Data (almost) for free"
+    ],
+    "Adversarial Robustness": [
+      "Certified Adversarial Robustness via Randomized Smoothing",
+      "Certified Defenses against Adversarial Examples",
+      "Certified Adversarial Defenses Meet Out-of-Distribution Corruptions Benchmarking Robustness and Simple Baselines",
+      "Certified Patch Robustness via Smoothed Vision Transformers",
+      "Certifiable Robustness to Adversarial State Uncertainty in Deep Reinforcement Learning",
+      "MixTrain: Scalable Training of Verifiably Robust Neural Networks",
+      "Data Augmentation Can Improve Robustness",
+      "Theoretically Principled Trade-off between Robustness and Accuracy",
+      "Deep k-Nearest Neighbors Towards Confident, Interpretable and Robust Deep Learning",
+      "Adversarial GLUE A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+      "Self-training with Noisy Student improves ImageNet classification",
+      "Adversarial Robustness as a Prior for Learned Representations",
+      "Evaluating Robustness of Neural Networks with Mixed Integer Programming",
+      "Robust fine-tuning of zero-shot models",
+      "Robust Learning with Frequency Domain Regularization",
+      "Robustness via curvature regularization, and vice versa",
+      "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models",
+      "Training verified learners with learned verifiers",
+      "Identifying Adversarial Attacks on Text Classifiers"
+    ],
+    "Objective Robustness": [
+      "Objective Robustness in Deep Reinforcement Learning"
+    ]
+  },
+  "Value Alignment": {
+    "Inverse Reinforcement Learning": [
+      "An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning",
+      "Learning Robust Rewards with Adversarial Inverse Reinforcement Learning",
+      "A Survey of Inverse Reinforcement Learning Challenges, Methods and Progress",
+      "Cooperative Inverse Reinforcement Learning",
+      "Reward-rational (implicit) choice A unifying formalism for reward learning",
+      "Efficient Exploration of Reward Functions in Inverse Reinforcement Learning via Bayesian Optimization",
+      "Perceptual Values from Observation",
+      "Sufficient Conditions for Idealised Models to Have No Adversarial Examples a Theoretical and Empirical Study with Bayesian Neural Networks",
+      "Learning to Understand Goal Specifications by Modelling Reward",
+      "Multi-task Maximum Entropy Inverse Reinforcement Learning",
+      "Inverse Reward Design",
+      "Occam's razor is insufficient to infer the preferences of irrational agents",
+      "Quantifying Differences in Reward Functions",
+      "End-to-End Robotic Reinforcement Learning without Reward Engineering",
+      "Meta-Inverse Reinforcement Learning with Probabilistic Context Variables",
+      "Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods",
+      "Interpretable Latent Spaces for Learning from Demonstration",
+      "Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences",
+      "Learning a Prior over Intent via Meta-Inverse Reinforcement Learning",
+      "Scalable agent alignment via reward modeling a research direction",
+      "A Framework and Method for Online Inverse Reinforcement Learning"
+    ],
+    "Societal Value Alignment": [
+      "Norms for Beneficial A.I. A Computational Analysis of the Societal Value Alignment Problem",
+      "Hard Choices in Artificial Intelligence Addressing Normative Uncertainty through Sociotechnical Commitments",
+      "Artificial Intelligence, Values and Alignment",
+      "Silly rules improve the capacity of agents to learn stable enforcement and compliance behaviors",
+      "Legible Normativity for AI Alignment The Value of Silly Rules",
+      "The Challenge of Value Alignment from Fairer Algorithms to AI Safety"
+    ],
+    "Learning from Human Preferences": [
+      "Learning What To Do by Simulating the Past",
+      "The MineRL BASALT Competition on Learning from Human Feedback",
+      "Reward-rational (implicit) choice A unifying formalism for reward learning",
+      "Cognitive Model Priors for Predicting Human Decisions",
+      "Discriminator-Actor-Critic: Addressing Sample Inefficiency and Reward Bias in Adversarial Imitation Learning",
+      "VILD Variational Imitation Learning with Diverse-quality Demonstrations",
+      "Interactive Learning from Policy-Dependent Human Feedback",
+      "What Would Jiminy Cricket Do? Towards Agents That Behave Morally",
+      "Literal or Pedagogic Human? Analyzing Human Model Misspecification in Objective Learning",
+      "I Know What You Meant Learning Human Objectives by (Under)estimating Their Choice Set",
+      "Learning Human Objectives by Evaluating Hypothetical Behavior",
+      "Training language models to follow instructions with human feedback",
+      "Batch Active Preference-Based Learning of Reward Functions",
+      "Humans learn too: Better Human-AI Interaction using Optimized Human Inputs",
+      "A General Language Assistant as a Laboratory for Alignment",
+      "Planning With Uncertain Specifications (PUnS)",
+      "Reward learning from human preferences and demonstrations in Atari",
+      "Human-Interactive Subgoal Supervision for Efficient Inverse Reinforcement Learning",
+      "Recursively Summarizing Books with Human Feedback",
+      "Uncertain Decisions Facilitate Better Preference Learning",
+      "Supervising strong learners by amplifying weak experts",
+      "Human irrationality both bad and good for reward inference",
+      "Deep Reinforcement Learning with Feedback-based Exploration",
+      "PEBBLE Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training",
+      "The EMPATHIC Framework for Task Learning from Implicit Human Feedback",
+      "Learning Rewards from Linguistic Feedback",
+      "On the Utility of Learning about Humans for Human-AI Coordination",
+      "Evaluating Agents without Rewards"
+    ],
+    "Agent Reward Management": [
+      "Indifference methods for managing agent rewards",
+      "Reinforcement Learning with a Corrupted Reward Channel",
+      "Agent Incentives A Causal Perspective",
+      "User Tampering in Reinforcement Learning Recommender Systems",
+      "Towards Governing Agent's Efficacy Action-Conditional $\u03b2$-VAE for Deep Transparent Reinforcement Learning"
+    ],
+    "Defining Human Values": [
+      "Aligning AI With Shared Human Values",
+      "Delphi Towards Machine Ethics and Norms",
+      "Preferences Implicit in the State of the World",
+      "Friendly Artificial Intelligence the Physics Challenge",
+      "Impossibility and Uncertainty Theorems in AI Value Alignment (or why your AGI should not have a utility function)",
+      "Conservative Agency via Attainable Utility Preservation",
+      "Ethical Artificial Intelligence",
+      "On the Feasibility of Learning, Rather than Assuming, Human Biases for Reward Inference"
+    ],
+    "Low Impact AI": [
+      "Low Impact Artificial Intelligences",
+      "Penalizing side effects using stepwise relative reachability",
+      "Avoiding Side Effects in Complex Environments"
+    ],
+    "Ontological Considerations": [
+      "Ontological Crises in Artificial Agents' Value Systems"
+    ],
+    "AI Misalignment": [
+      "Consequences of Misaligned AI",
+      "Performance of Bounded-Rational Agents With the Ability to Self-Modify"
+    ],
+    "Human Value Measurement": [
+      "From Optimizing Engagement to Measuring Value",
+      "Where Do You Think You're Going? Inferring Beliefs about Dynamics from Behavior",
+      "What are you optimizing for? Aligning Recommender Systems with Human Values"
+    ],
+    "Reward Learning": [
+      "Reward Learning from Narrated Demonstrations"
+    ],
+    "Pragmatic-Pedagogic Value Alignment": [
+      "Pragmatic-Pedagogic Value Alignment"
+    ],
+    "AI Off-Switch Design": [
+      "The Off-Switch Game"
+    ],
+    "AI Safety": [
+      "Avoiding Negative Side Effects due to Incomplete Knowledge of AI Systems",
+      "Incorrigibility in the CIRL Framework"
+    ]
+  },
+  "AI Governance and Policy": {
+    "AI Safety Research": [
+      "Unsolved Problems in ML Safety",
+      "Measurement in AI Policy Opportunities and Challenges",
+      "Forecasting AI Progress: A Research Agenda",
+      "Reducing malicious use of synthetic media research Considerations and potential release practices for machine learning",
+      "A Psychopathological Approach to Safety Engineering in AI and AGI",
+      "Limits to Verification and Validation of Agentic Behavior",
+      "Formal Methods for the Informal Engineer Workshop Recommendations",
+      "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims",
+      "The Role of Cooperation in Responsible AI Development",
+      "Concrete Problems in AI Safety"
+    ],
+    "AI Deployment Challenges": [
+      "Predictability and Surprise in Large Generative Models",
+      "Release Strategies and the Social Impacts of Language Models"
+    ],
+    "AI Research Diversity": [
+      "A narrowing of AI research?"
+    ],
+    "AI Ethics and Governance": [
+      "Ethics and Governance of Artificial Intelligence Evidence from a Survey of Machine Learning Researchers",
+      "On the Opportunities and Risks of Foundation Models",
+      "Truthful AI Developing and governing AI that does not lie",
+      "The Offense-Defense Balance of Scientific Knowledge Does Publishing AI Research Reduce Misuse?",
+      "Regulatory Markets for AI Safety"
+    ],
+    "AI Debate": [
+      "(When) Is Truth-telling Favored in AI Debate?"
+    ],
+    "Hierarchical Policy-Making": [
+      "A Game-Theoretic Approach for Hierarchical Policy-Making"
+    ],
+    "Research Prioritization": [
+      "Beyond Near- and Long-Term Towards a Clearer Account of Research Priorities in AI Ethics and Society"
+    ],
+    "AI Forecasting": [
+      "Forecasting Transformative AI An Expert Survey"
+    ]
+  },
+  "Human-AI Interaction and Collaboration": {
+    "Human-Robot Interaction": [
+      "Robot Planning with Mathematical Models of Human State and Action",
+      "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+      "Should Robots be Obedient?",
+      "Nonverbal Robot Feedback for Human Teachers",
+      "Towards Learning Multi-agent Negotiations via Self-Play",
+      "Probabilistically Safe Robot Planning with Confidence-Based Human Predictions",
+      "Batch Active Preference-Based Learning of Reward Functions",
+      "Feature Expansive Reward Learning Rethinking Human Input",
+      "On the Utility of Model Learning in HRI",
+      "Using Causal Analysis to Learn Specifications from Task Demonstrations",
+      "Learning What Information to Give in Partially Observed Domains",
+      "Scaled Autonomy Enabling Human Operators to Control Robot Fleets",
+      "Learning from Richer Human Guidance Augmenting Comparison-Based Learning with Feature Queries"
+    ],
+    "Imitation Learning": [
+      "IQ-Learn Inverse soft-Q Learning for Imitation",
+      "Causal Confusion in Imitation Learning",
+      "Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations",
+      "Adversarial Soft Advantage Fitting Imitation Learning without Policy Optimization",
+      "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+      "Imitating Latent Policies from Observation",
+      "Multi-Agent Generative Adversarial Imitation Learning",
+      "What Matters in Learning from Offline Human Demonstrations for Robot Manipulation",
+      "Imitation Learning as $f$-Divergence Minimization",
+      "Zero-Shot Visual Imitation",
+      "Sample Efficient Reinforcement Learning through Learning from Demonstrations in Minecraft",
+      "Few-Shot Goal Inference for Visuomotor Learning and Planning",
+      "Deep TAMER Interactive Agent Shaping in High-Dimensional State Spaces",
+      "Variational Discriminator Bottleneck Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow",
+      "Imitation Learning from Video by Leveraging Proprioception",
+      "Universal Planning Networks",
+      "Language Conditioned Imitation Learning over Unstructured Data",
+      "Risk-Sensitive Generative Adversarial Imitation Learning",
+      "What Matters for Adversarial Imitation Learning?",
+      "Feedback in Imitation Learning The Three Regimes of Covariate Shift",
+      "Inverse reinforcement learning for video games",
+      "Generative Adversarial Imitation from Observation",
+      "Self-Imitation Learning",
+      "Learning from Observations Using a Single Video Demonstration and Human Feedback"
+    ],
+    "Human-Centered AI": [
+      "Human-Centered Artificial Intelligence and Machine Learning",
+      "Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation",
+      "Building Ethics into Artificial Intelligence",
+      "Interactive Explanations Diagnosis and Repair of Reinforcement Learning Based Agent Behaviors",
+      "Learning Representations by Humans, for Humans"
+    ],
+    "Collaborative Robotics": [
+      "Goal Inference Improves Objective and Perceived Performance in Human-Robot Collaboration",
+      "Simplifying Reward Design through Divide-and-Conquer"
+    ],
+    "Modeling Human Behavior": [
+      "Modeling Friends and Foes",
+      "Cognitive Model Priors for Predicting Human Decisions",
+      "Enabling Robots to Communicate their Objectives",
+      "LESS is More Rethinking Probabilistic Models of Human Behavior",
+      "Aligning Superhuman AI with Human Behavior Chess as a Model System",
+      "Human irrationality both bad and good for reward inference",
+      "Theory of Minds Understanding Behavior in Groups Through Inverse Planning",
+      "Beyond Winning and Losing Modeling Human Motivations and Behaviors Using Inverse Reinforcement Learning"
+    ],
+    "AI Assistance": [
+      "Unsupervised Question Decomposition for Question Answering",
+      "Multi-Principal Assistance Games",
+      "The Assistive Multi-Armed Bandit",
+      "Why Build an Assistant in Minecraft?",
+      "Improving Deep Reinforcement Learning in Minecraft with Action Advice",
+      "Applying Deep Learning To Airbnb Search"
+    ],
+    "Learning from Human Feedback": [
+      "Learning under Misspecified Objective Spaces"
+    ],
+    "Human-AI Collaboration": [
+      "Learning to Complement Humans",
+      "Human-AI Learning Performance in Multi-Armed Bandits",
+      "Efficiently Combining Human Demonstrations and Interventions for Safe Training of Autonomous Systems in Real-Time"
+    ],
+    "Human Instruction-Following": [
+      "Human Instruction-Following with Deep Reinforcement Learning via Transfer-Learning from Text"
+    ],
+    "Interactive AI Agents": [
+      "Imitating Interactive Intelligence"
+    ],
+    "Theory-Based AI": [
+      "Human-Level Reinforcement Learning through Theory-Based Modeling, Exploration, and Planning"
+    ]
+  },
+  "Interpretability, Explainability, and Transparency": {
+    "AI Transparency": [
+      "Accounting for the Neglected Dimensions of AI Progress"
+    ],
+    "Model Interpretability": [
+      "Regularizing Black-box Models for Improved Interpretability",
+      "Compositional Explanations of Neurons",
+      "On the Opportunities and Risks of Foundation Models",
+      "Analyzing Inverse Problems with Invertible Neural Networks",
+      "Visualizing and Understanding Convolutional Networks",
+      "Towards Better Interpretability in Deep Q-Networks",
+      "Pruned Neural Networks are Surprisingly Modular",
+      "Quantifying Local Specialization in Deep Neural Networks",
+      "Leveraging Sparse Linear Layers for Debuggable Deep Networks",
+      "Verification of deep probabilistic models",
+      "Understanding Learned Reward Functions",
+      "Neuron Shapley: Discovering the Responsible Neurons",
+      "Manipulating and Measuring Model Interpretability",
+      "Machine Learning Explainability for External Stakeholders",
+      "Training Machine Learning Models by Regularizing their Explanations",
+      "How Well do Feature Visualizations Support Causal Understanding of CNN Activations?",
+      "Unsupervised Learning of Neural Networks to Explain Neural Networks",
+      "Exploratory Not Explanatory: Counterfactual Analysis of Saliency Maps for Deep Reinforcement Learning",
+      "Agree to Disagree: When Deep Learning Models With Identical Architectures Produce Distinct Explanations",
+      "Interpretable Reinforcement Learning with Ensemble Methods",
+      "Deep k-Nearest Neighbors Towards Confident, Interpretable and Robust Deep Learning",
+      "Towards Mixed Optimization for Reinforcement Learning with Program Synthesis",
+      "Representer Point Selection for Explaining Deep Neural Networks",
+      "GAN Dissection Visualizing and Understanding Generative Adversarial Networks",
+      "An Inductive Synthesis Framework for Verifiable Reinforcement Learning",
+      "Attention is not Explanation",
+      "Towards A Rigorous Science of Interpretable Machine Learning"
+    ],
+    "Expressing AI Limitations": [
+      "Expressing Robot Incapability"
+    ],
+    "Model Transparency": [
+      "Scaling shared model governance via model splitting"
+    ],
+    "Explaining Model Decisions": [
+      "Right for the Right Reasons Training Differentiable Models by Constraining their Explanations",
+      "Explaining Explanations An Overview of Interpretability of Machine Learning",
+      "Why Should I Trust You? Explaining the Predictions of Any Classifier",
+      "Explaining Explanations in AI",
+      "Evaluating Explainable AI Which Algorithmic Explanations Help Users Predict Model Behavior?"
+    ],
+    "Model Reconstruction": [
+      "Model Reconstruction from Model Explanations"
+    ],
+    "Stakeholder Analysis in Explainable AI": [
+      "Stakeholders in Explainable AI"
+    ],
+    "Deep Network Interpretability": [
+      "Deeper Interpretability of Deep Networks"
+    ]
+  },
+  "Meta-learning, Transfer Learning, and Generalization": {
+    "Neural Architecture Search": [
+      "DARTS Differentiable Architecture Search",
+      "Neural Architecture Search with Reinforcement Learning",
+      "AutoML-Zero Evolving Machine Learning Algorithms From Scratch",
+      "Resource-Efficient Neural Architect"
+    ],
+    "Scaling Laws": [
+      "Learning Curve Theory",
+      "Scaling Laws for Neural Language Models",
+      "Scaling Laws for Transfer",
+      "A Neural Scaling Law from the Dimension of the Data Manifold",
+      "Scaling Laws for Autoregressive Generative Modeling",
+      "A Constructive Prediction of the Generalization Error Across Scales",
+      "Scaling Scaling Laws with Board Games",
+      "Measuring the Algorithmic Efficiency of Neural Networks"
+    ],
+    "Policy Generalization": [
+      "Learning Invariances for Policy Generalization",
+      "Reinforcement Learning with Augmented Data",
+      "Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation",
+      "Dynamics-Aware Unsupervised Discovery of Skills",
+      "Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design",
+      "Improving Generalization for Abstract Reasoning Tasks Using Disentangled Feature Representations",
+      "Thinking Fast and Slow with Deep Learning and Tree Search",
+      "Counterfactual equivalence for POMDPs, and underlying deterministic environments"
+    ],
+    "One-shot Learning": [
+      "O2A One-shot Observational learning with Action vectors",
+      "Finetuned Language Models Are Zero-Shot Learners"
+    ],
+    "Meta-learning Architectures": [
+      "AI-GAs AI-generating algorithms, an alternate paradigm for producing general artificial intelligence",
+      "Meta-Learning Update Rules for Unsupervised Representation Learning",
+      "Meta-learning of Sequential Strategies",
+      "Unsupervised Learning via Meta-Learning",
+      "Fast Context Adaptation via Meta-Learning",
+      "Meta-learners' learning dynamics are unlike learners'",
+      "Meta-Learning with Hessian-Free Approach in Deep Neural Nets Training",
+      "Meta-Learning without Memorization"
+    ],
+    "Benchmarks for Meta-learning": [
+      "Meta-World A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning"
+    ],
+    "Synthetic Data Generation": [
+      "Generative Teaching Networks Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data"
+    ],
+    "Distributional Generalization": [
+      "Distributional Generalization A New Kind of Generalization",
+      "Hidden Incentives for Auto-Induced Distributional Shift"
+    ],
+    "Few-shot Learning": [
+      "True Few-Shot Learning with Language Models"
+    ],
+    "Multi-Task Learning": [
+      "Gradient Surgery for Multi-Task Learning"
+    ],
+    "Continual Learning": [
+      "Learning to Continually Learn"
+    ],
+    "Task-Agnostic Meta-Learning": [
+      "Task-Agnostic Meta-Learning for Few-shot Learning"
+    ],
+    "Transfer Learning": [
+      "Multitask Soft Option Learning",
+      "Adapting Language Models for Zero-shot Learning by Meta-tuning on Dataset and Prompt Collections",
+      "Do Better ImageNet Models Transfer Better?"
+    ],
+    "Prompt Tuning": [
+      "The Power of Scale for Parameter-Efficient Prompt Tuning"
+    ],
+    "Multi-task Learning": [
+      "Muppet Massive Multi-task Representations with Pre-Finetuning"
+    ],
+    "Few-Shot Learning": [
+      "Meta-Dataset A Dataset of Datasets for Learning to Learn from Few Examples",
+      "Language Models are Few-Shot Learners",
+      "RAFT A Real-World Few-Shot Text Classification Benchmark"
+    ]
+  },
+  "AI Security and Privacy": {
+    "Reward Tampering": [
+      "Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective"
+    ],
+    "AI Containment": [
+      "Stovepiping and Malicious Software A Critical Review of AGI Containment",
+      "Building Safer AGI by introducing Artificial Stupidity",
+      "Parametric Bounded L\u00f6b's Theorem and Robust Cooperation of Bounded Agents",
+      "A Hamilton-Jacobi Reachability-Based Framework for Predicting and Analyzing Human Motion for Safe Planning",
+      "Good and safe uses of AI Oracles",
+      "Guidelines for Artificial Intelligence Containment",
+      "Dynamic Safe Interruptibility for Decentralized Multi-Agent Reinforcement Learning",
+      "Artificial Intelligence Safety and Cybersecurity a Timeline of AI Failures"
+    ],
+    "Out-of-Distribution Detection": [
+      "ReAct Out-of-distribution Detection With Rectified Activations"
+    ],
+    "AI-Generated Code Security": [
+      "Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions"
+    ],
+    "Policy Protection": [
+      "Preventing Imitation Learning with Adversarial Policy Ensembles"
+    ],
+    "Deep Learning Security": [
+      "Security and Privacy Issues in Deep Learning"
+    ],
+    "Information Theoretic Bounds": [
+      "Formal Limitations on the Measurement of Mutual Information"
+    ],
+    "Data Privacy": [
+      "Extracting Training Data from Large Language Models"
+    ],
+    "Misinformation Detection": [
+      "Defending Against Neural Fake News"
+    ],
+    "Secure AI Development": [
+      "Secure Deep Learning Engineering A Software Quality Assurance Perspective"
+    ]
+  },
+  "Ethical and Societal Implications of AI": {
+    "AI Ethics": [
+      "Predictability and Surprise in Large Generative Models",
+      "Delphi Towards Machine Ethics and Norms",
+      "Hard Choices in Artificial Intelligence Addressing Normative Uncertainty through Sociotechnical Commitments",
+      "Towards a Theory of Justice for Artificial Intelligence",
+      "Evaluating CLIP: Towards Characterization of Broader Capabilities and Downstream Implications",
+      "Reinforcement Learning Under Moral Uncertainty",
+      "Computational Power and the Social Impact of Artificial Intelligence",
+      "AI Ethics Statements -- Analysis and lessons learnt from NeurIPS Broader Impact Statements",
+      "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence",
+      "The Problem with Metrics is a Fundamental Problem for AI",
+      "Artificial Fun Mapping Minds to the Space of Fun"
+    ],
+    "AI Safety": [
+      "AI Safety Gridworlds",
+      "AI Research Considerations for Human Existential Safety (ARCHES)",
+      "The Next Decade in AI Four Steps Towards Robust Artificial Intelligence",
+      "Modeling AGI Safety Frameworks with Causal Influence Diagrams",
+      "Challenges for Using Impact Regularizers to Avoid Negative Side Effects",
+      "AI Development for the Public Interest From Abstraction Traps to Sociotechnical Risks",
+      "Open Questions in Creating Safe Open-ended AI: Tensions Between Control and Creativity",
+      "Pessimism About Unknown Unknowns Inspires Conservatism"
+    ],
+    "Bias in Machine Learning": [
+      "Identifying and Correcting Label Bias in Machine Learning",
+      "Learning Not to Learn Training Deep Neural Networks with Biased Data",
+      "Underspecification Presents Challenges for Credibility in Modern Machine Learning"
+    ],
+    "Academic Integrity in AI Research": [
+      "The Grey Hoodie Project Big Tobacco, Big Tech, and the threat on academic integrity"
+    ],
+    "Language Model Toxicity": [
+      "Challenges in Detoxifying Language Models"
+    ],
+    "Fairness and Bias": [
+      "The Social Cost of Strategic Classification",
+      "Towards a Theory of Justice for Artificial Intelligence",
+      "Counterfactual Fairness",
+      "Algorithmic Fairness from a Non-ideal Perspective"
+    ],
+    "AI Industry Impact": [
+      "Social and Governance Implications of Improved Data Efficiency",
+      "AI and Shared Prosperity"
+    ],
+    "Algorithmic Depolarization": [
+      "Designing Recommender Systems to Depolarize"
+    ],
+    "Large Language Model Impact": [
+      "Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models"
+    ],
+    "Transformative AI": [
+      "The Transformative Potential of Artificial Intelligence"
+    ]
+  },
+  "Biological Inspiration in AI": {
+    "Neuroscience-Inspired AI": [
+      "Fooling the primate brain with minimal, targeted image manipulation"
+    ]
+  },
+  "AI Benchmarks and Evaluation": {
+    "Reinforcement Learning Environments": [
+      "OpenAI Gym",
+      "The MineRL BASALT Competition on Learning from Human Feedback",
+      "DERAIL: Diagnostic Environments for Reward And Imitation Learning",
+      "Scalable Evaluation of Multi-Agent Reinforcement Learning with Melting Pot",
+      "Learning to Play No-Press Diplomacy with Best Response Policy Iteration"
+    ],
+    "Empirical Studies": [
+      "What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study",
+      "Measurement in AI Policy Opportunities and Challenges",
+      "More Data Can Hurt for Linear Regression: Sample-wise Double Descent",
+      "Categorizing Variants of Goodhart's Law",
+      "Self-Tuning Networks Bilevel Optimization of Hyperparameters using Structured Best-Response Functions",
+      "Challenges of Real-World Reinforcement Learning",
+      "Scrutinizing and De-Biasing Intuitive Physics with Neural Stethoscopes",
+      "Rissanen Data Analysis: Examining Dataset Characteristics via Description Length",
+      "Towards a Human-like Open-Domain Chatbot",
+      "Tackling Climate Change with Machine Learning",
+      "The Surprising Creativity of Digital Evolution A Collection of Anecdotes from the Evolutionary Computation and Artificial Life Research Communities",
+      "The Benchmark Lottery",
+      "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
+      "Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures",
+      "TuringAdvice A Generative and Dynamic Evaluation of Language Use",
+      "Weight Agnostic Neural Networks",
+      "Generalization Error in Deep Learning",
+      "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "Predicting human decisions with behavioral theories and machine learning"
+    ],
+    "Reinforcement Learning Competitions": [
+      "Retrospective Analysis of the 2019 MineRL Competition on Sample Efficient Reinforcement Learning",
+      "The MineRL BASALT Competition on Learning from Human Feedback"
+    ],
+    "Neuropsychology of Human Values": [
+      "AI Safety and Reproducibility Establishing Robust Foundations for the Neuropsychology of Human Values"
+    ],
+    "Neural Network Testing": [
+      "TensorFuzz Debugging Neural Networks with Coverage-Guided Fuzzing"
+    ],
+    "Coding Challenge Competence": [
+      "Measuring Coding Challenge Competence With APPS"
+    ],
+    "AI Progress Tracking": [
+      "The AI Index 2021 Annual Report"
+    ],
+    "Dataset Quality Assessment": [
+      "From ImageNet to Image Classification: Contextualizing Progress on Benchmarks"
+    ]
+  },
+  "Decision Theory": {
+    "Idealized Decision Theory": [
+      "Toward Idealized Decision Theory",
+      "Functional Decision Theory A New Theory of Instrumental Rationality",
+      "I Don't Want to Think About it NowDecision Theory With Costly Computation",
+      "Sequential Extensions of Causal and Evidential Decision Theory"
+    ]
+  },
+  "Neurosymbolic AI": {
+    "Integration of Neural and Symbolic AI": [
+      "Neurosymbolic AI The 3rd Wave",
+      "SATNet Bridging deep learning and logical reasoning using a differentiable satisfiability solver"
+    ]
+  },
+  "Temporal Inference": {
+    "Finite Factored Sets": [
+      "Temporal Inference with Finite Factored Sets"
+    ]
+  },
+  "Game Theory": {
+    "Multi-Agent Systems": [
+      "Equilibrium Refinements for Multi-Agent Influence Diagrams Theory and Practice",
+      "Hierarchical Game-Theoretic Planning for Autonomous Vehicles",
+      "CM3 Cooperative Multi-goal Multi-stage Multi-agent Reinforcement Learning",
+      "Game Theory with Translucent Players"
+    ]
+  },
+  "Logical Uncertainty": {
+    "Probabilistic Reasoning": [
+      "Asymptotic Logical Uncertainty and The Benford Test",
+      "A Formal Approach to the Problem of Logical Non-Omniscience"
+    ]
+  },
+  "Contrastive Learning": {
+    "Self-Supervised Learning": [
+      "Improved Baselines with Momentum Contrastive Learning",
+      "Momentum Contrast for Unsupervised Visual Representation Learning",
+      "What Makes for Good Views for Contrastive Learning?",
+      "A Simple Framework for Contrastive Learning of Visual Representations",
+      "Big Self-Supervised Models are Strong Semi-Supervised Learners"
+    ],
+    "Contrastive Predictive Coding": [
+      "Representation Learning with Contrastive Predictive Coding"
+    ]
+  },
+  "AI Safety": {
+    "Reward Learning": [
+      "Positive-Unlabeled Reward Learning",
+      "Replacing Rewards with Examples Example-Based Policy Search via Recursive Classification",
+      "Avoiding Tampering Incentives in Deep RL via Decoupled Approval",
+      "Understanding Learned Reward Functions",
+      "Active Inverse Reward Design",
+      "Pitfalls of learning a reward function online",
+      "Detecting Spiky Corruption in Markov Decision Processes"
+    ],
+    "Intrinsic Motivation": [
+      "Learning Efficient Representation for Intrinsic Motivation",
+      "World Discovery Models"
+    ],
+    "AI Addiction Prevention": [
+      "Emergence of Addictive Behaviors in Reinforcement Learning Agents"
+    ],
+    "Safety Oversight": [
+      "Oversight of Unsafe Systems via Dynamic Safety Envelopes"
+    ],
+    "Safe Cooperation": [
+      "Accumulating Risk Capital Through Investing in Cooperation",
+      "Learning Existing Social Conventions via Observationally Augmented Self-Play"
+    ],
+    "Safe Imitation Learning": [
+      "EnsembleDAgger A Bayesian Approach to Safe Imitation Learning",
+      "Establishing Appropriate Trust via Critical States",
+      "Expert-augmented actor-critic for ViZDoom and Montezumas Revenge",
+      "Amplifying the Imitation Effect for Reinforcement Learning of UCAV's Mission Execution"
+    ],
+    "Goal Inference": [
+      "Online Bayesian Goal Inference for Boundedly-Rational Planning Agents"
+    ],
+    "Safe Exploration": [
+      "Towards Empathic Deep Q-Learning",
+      "A Low-Cost Ethics Shaping Approach for Designing Reinforcement Learning Agents",
+      "Parenting Safe Reinforcement Learning from Human Input"
+    ],
+    "AI Task Specification": [
+      "An Extensible Interactive Interface for Agent Design"
+    ],
+    "AI Safety Research": [
+      "AI safety state of the field through quantitative lens",
+      "Integrative Biological Simulation, Neuropsychology, and AI Safety"
+    ],
+    "Value Alignment Verification": [
+      "Value Alignment Verification"
+    ],
+    "Safe AI Design": [
+      "Asymptotically Unambitious Artificial General Intelligence"
+    ],
+    "AGI Safety": [
+      "AGI Safety Literature Review"
+    ],
+    "Side Effects": [
+      "Avoiding Side Effects By Considering Future Tasks"
+    ],
+    "Embedded Agency": [
+      "Embedded Agency"
+    ],
+    "Concrete Safety Problems": [
+      "Concrete Problems in AI Safety"
+    ]
+  },
+  "AI Safety Incident Reporting": {
+    "Incident Databases": [
+      "Preventing Repeated Real World AI Failures by Cataloging Incidents The AI Incident Database"
+    ]
+  },
+  "Reinforcement Learning": {
+    "Safe Reinforcement Learning": [
+      "Lyapunov-based Safe Policy Optimization for Continuous Control",
+      "Making Efficient Use of Demonstrations to Solve Hard Exploration Problems",
+      "DisCor Corrective Feedback in Reinforcement Learning via Distribution Correction",
+      "Finding Generalizable Evidence by Learning to Convince Q&A Models",
+      "Adaptive Mechanism Design Learning to Promote Cooperation"
+    ],
+    "Model-Based Reinforcement Learning": [
+      "Learning Latent Dynamics for Planning from Pixels",
+      "Planning to Explore via Self-Supervised World Models",
+      "Offline Reinforcement Learning as One Big Sequence Modeling Problem",
+      "Model-Based Reinforcement Learning via Meta-Policy Optimization",
+      "CURL Contrastive Unsupervised Representations for Reinforcement Learning",
+      "Conservative Objective Models for Effective Offline Model-Based Optimization",
+      "Generative Temporal Difference Learning for Infinite-Horizon Prediction"
+    ],
+    "Multi-Task Reinforcement Learning": [
+      "Generalized Hindsight for Reinforcement Learning",
+      "Mastering Complex Control in MOBA Games with Deep Reinforcement Learning",
+      "PPO-CMA: Proximal Policy Optimization with Covariance Matrix Adaptation",
+      "Decentralized Reinforcement Learning Global Decision-Making via Local Economic Transactions",
+      "Evolving simple programs for playing Atari games",
+      "Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives",
+      "Multitask Soft Option Learning",
+      "Model Primitive Hierarchical Lifelong Reinforcement Learning",
+      "Learning Exploration Policies for Navigation",
+      "Guiding Policies with Language via Meta-Learning",
+      "Rewriting History with Inverse RL Hindsight Inference for Policy Improvement",
+      "Agent57 Outperforming the Atari Human Benchmark",
+      "Generative Exploration and Exploitation",
+      "Emergent Social Learning via Multi-agent Reinforcement Learning",
+      "Universal Reinforcement Learning Algorithms Survey and Experiments",
+      "Unsupervised Visuomotor Control through Distributional Planning Networks",
+      "Hierarchical visuomotor control of humanoids"
+    ],
+    "Offline Reinforcement Learning": [
+      "Offline Reinforcement Learning Tutorial, Review, and Perspectives on Open Problems"
+    ],
+    "Exploration in Reinforcement Learning": [
+      "Exploration Potential"
+    ],
+    "Multi-Agent Reinforcement Learning": [
+      "Learning in two-player games between transparent opponents"
+    ],
+    "Deep Reinforcement Learning": [
+      "Solving the Rubik's Cube Without Human Knowledge",
+      "Deep Reinforcement Learning from Policy-Dependent Human Feedback",
+      "Playing Atari with Deep Reinforcement Learning"
+    ],
+    "Sequence Modeling for RL": [
+      "Decision Transformer Reinforcement Learning via Sequence Modeling"
+    ],
+    "Reward Shaping": [
+      "Using Natural Language for Reward Shaping in Reinforcement Learning"
+    ],
+    "Exploration Strategies": [
+      "MADE Exploration via Maximizing Deviation from Explored Regions"
+    ],
+    "Intrinsic Motivation": [
+      "Adversarial Active Exploration for Inverse Dynamics Model Learning"
+    ]
+  },
+  "AI Cognitive Architectures": {
+    "Cognitive AI with Common Sense": [
+      "Dark, Beyond Deep A Paradigm Shift to Cognitive AI with Humanlike Common Sense"
+    ],
+    "Probabilistic Reasoning": [
+      "Probabilistic Dependency Graphs"
+    ]
+  },
+  "AI Theory and Foundations": {
+    "Agency and Intentionality": [
+      "Agents and Devices A Relative Definition of Agency",
+      "Abstraction Learning",
+      "Toward an AI Physicist for Unsupervised Learning",
+      "Servant of Many Masters Shifting priorities in Pareto-optimal sequential decision-making",
+      "Building Machines That Learn and Think Like People",
+      "Dynamic Awareness",
+      "The Incentives that Shape Behaviour"
+    ],
+    "Causal Reasoning": [
+      "Shaking the foundations delusions in sequence models for interaction and control"
+    ],
+    "Statistical Learning Theory": [
+      "Reconciling modern machine learning practice and the bias-variance trade-off"
+    ],
+    "Theoretical Limitations": [
+      "On the Impossibility of Supersized Machines"
+    ],
+    "AI Progress Cycles": [
+      "The 30-Year Cycle In The AI Debate"
+    ],
+    "Energy Efficiency in AI": [
+      "Energetics of the brain and AI"
+    ],
+    "Neural Network Theory": [
+      "Linear Mode Connectivity and the Lottery Ticket Hypothesis"
+    ],
+    "Program Synthesis": [
+      "Program Synthesis with Large Language Models"
+    ],
+    "Model Editing": [
+      "Locating and Editing Factual Associations in GPT"
+    ],
+    "Network Pruning": [
+      "Deconstructing Lottery Tickets Zeros, Signs, and the Supermask"
+    ],
+    "Logical Induction": [
+      "Logical Induction"
+    ],
+    "Machine Theory of Mind": [
+      "Machine Theory of Mind"
+    ],
+    "Cooperative AI": [
+      "Normative Disagreement as a Challenge for Cooperative AI",
+      "Open Problems in Cooperative AI"
+    ],
+    "Deep Learning Architectures": [
+      "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    ],
+    "Model Architecture": [
+      "Universal Transformers"
+    ],
+    "Causal Inference": [
+      "The Blessings of Multiple Causes"
+    ],
+    "Learning Theory": [
+      "A Theory of Universal Learning"
+    ],
+    "Deep Learning Theory": [
+      "Pretrained Transformers as Universal Computation Engines"
+    ],
+    "Generative Models": [
+      "Generative Adversarial Networks"
+    ],
+    "Multi-Agent Systems": [
+      "Emergent Communication through Negotiation",
+      "Generating Multi-Agent Trajectories using Programmatic Weak Supervision"
+    ],
+    "Neural Arithmetic": [
+      "Neural Arithmetic Logic Units"
+    ]
+  },
+  "AI Verification": {
+    "Neural Network Verification": [
+      "Algorithms for Verifying Deep Neural Networks"
+    ]
+  },
+  "AI Risk Assessment": {
+    "Mesa-Optimization": [
+      "Risks from Learned Optimization in Advanced Machine Learning Systems"
+    ]
+  },
+  "AI Capabilities": {
+    "Superintelligence": [
+      "Can Intelligence Explode?"
+    ]
+  },
+  "Formal Methods in AI": {
+    "Probabilistic Logic": [
+      "Inductive Coherence"
+    ]
+  },
+  "AI Problem Solving": {
+    "Mathematical Problem Solving": [
+      "Solving Probability and Statistics Problems by Program Synthesis",
+      "Deep Learning for Symbolic Mathematics"
+    ]
+  },
+  "Multi-Agent Systems": {
+    "Inverse Reinforcement Learning": [
+      "Multi-agent Inverse Reinforcement Learning for Certain General-sum Stochastic Games"
+    ],
+    "Cooperative Decision-Making": [
+      "Toward negotiable reinforcement learning shifting priorities in Pareto optimal sequential decision-making"
+    ]
+  },
+  "AI Alignment": {
+    "Language Model Alignment": [
+      "Alignment of Language Agents"
+    ]
+  },
+  "AI for Robotics": {
+    "Robot Navigation": [
+      "PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings"
+    ]
+  }
+}
