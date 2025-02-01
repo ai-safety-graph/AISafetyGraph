@@ -8,17 +8,18 @@ jobs:
   update-submodule:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main repository with submodules
+      - name: Checkout main repository with full history and submodules
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
+          fetch-depth: 0
 
       - name: Update submodule pointer
         run: git submodule update --remote
 
       - name: Pull latest changes from remote
-        run: git pull --rebase origin ${{ github.event.repository.default_branch }}
+        run: git pull origin ${{ github.event.repository.default_branch }}
 
       - name: Commit and push submodule pointer changes
         run: |
