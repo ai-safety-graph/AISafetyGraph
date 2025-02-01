@@ -23,6 +23,10 @@ jobs:
           
       - name: Update submodule
         run: |
+          # Get latest changes from remote
+          git fetch origin
+          git reset --hard origin/${{ github.event.repository.default_branch }}
+          
           # Initialize and update submodule
           git submodule update --init
           
@@ -33,7 +37,6 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git add .
             git commit -m "chore: Update aisgraph submodule to latest commit"
-            git pull --rebase origin ${{ github.event.repository.default_branch }}
             git push origin ${{ github.event.repository.default_branch }}
           else
             echo "No changes to commit"
