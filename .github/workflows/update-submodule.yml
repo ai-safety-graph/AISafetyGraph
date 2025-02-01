@@ -11,22 +11,19 @@ jobs:
       - name: Checkout main repository with submodules
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
 
       - name: Update submodule pointer
-        run: |
-          # This updates submodules to the latest commit of the branch specified in .gitmodules.
-          git submodule update --remote
+        run: git submodule update --remote
 
       - name: Commit and push submodule pointer changes
         run: |
-          # Check if there is any change (i.e. the submodule pointer was updated)
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add .
             git commit -m "Update submodule pointer to latest commit from aisgraph"
-            git push
+            git push origin HEAD:${{ github.event.repository.default_branch }}
           else
             echo "No submodule updates detected."
-          fi
