@@ -18,16 +18,22 @@ jobs:
       - name: Update submodule pointer
         run: git submodule update --remote
 
-      - name: Pull latest changes from remote
-        run: git pull origin ${{ github.event.repository.default_branch }}
+      - name: Stage submodule changes
+        run: git add .
 
-      - name: Commit and push submodule pointer changes
+      - name: Commit submodule pointer changes if any
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add .
             git commit -m "Update submodule pointer to latest commit from aisgraph"
-            git push origin HEAD:${{ github.event.repository.default_branch }}
           else
             echo "No submodule updates detected."
+            exit 0
+          fi
+
+      - name: Rebase local branch onto remote changes
+        run: git pull --rebase origin ${{ github.event.repository.default_branch }}
+
+      - name: Push changes to remote
+        run: git push origin HEAD:${{ github.event.repository.default_branch }}
