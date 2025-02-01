@@ -11,6 +11,7 @@ concurrency:
 jobs:
   update-submodule:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout main repo (PAT authenticated)
         uses: actions/checkout@v4
@@ -39,6 +40,7 @@ jobs:
           # Commit only if submodule changed
           if ! git diff --quiet --exit-code -- aisgraph; then
             git commit -m "Update submodule pointer to $(git -C aisgraph rev-parse --short HEAD)"
+            git pull --rebase
             git push origin HEAD:main --force-with-lease
           else
             echo "No submodule changes detected"
