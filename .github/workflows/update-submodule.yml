@@ -15,29 +15,33 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          
+
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
       - name: Update submodule
         run: |
-          # Get latest changes from remote
+          # Ensure we're on the right branch
+          git checkout ${{ github.event.repository.default_branch }}
+          
+          # Get the latest changes
           git fetch origin
           git reset --hard origin/${{ github.event.repository.default_branch }}
           
-          # Initialize and update submodule
-          git submodule update --init
+          # Update the submodule
+          git submodule update --init --recursive
+          git submodule update --remote --recursive
           
-          # Update submodule to latest commit
-          git submodule update --remote
-          
-          # If there are changes, commit and push them
+          # Check for changes and commit them
           if [[ -n "$(git status --porcelain)" ]]; then
             git add .
             git commit -m "chore: Update aisgraph submodule to latest commit"
-            git push origin ${{ github.event.repository.default_branch }}
+            
+            # Force push with lease ensures the push succeeds while still being safe
+            # It will only push if the remote hasn't changed from what we expect
+            git push --force-with-lease origin ${{ github.event.repository.default_branch }}
           else
             echo "No changes to commit"
           fi
