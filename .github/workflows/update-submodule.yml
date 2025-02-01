@@ -8,34 +8,44 @@ jobs:
   update-submodule:
     runs-on: ubuntu-latest
     steps:
+      # 1. Checkout using a PAT with write permissions
       - name: Checkout main repository with full history and submodules
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MAIN_REPO_PAT }}  # Changed to PAT
           submodules: recursive
           fetch-depth: 0
 
-      - name: Reset to latest origin/main to avoid divergence
+      # 2. Explicitly configure Git credentials for subsequent operations
+      - name: Configure Git credentials
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.MAIN_REPO_PAT }}@github.com/ai-safety-graph/AISafetyGraph.git
+
+      # 3. Force-synchronize with remote
+      - name: Hard reset to remote main
         run: |
           git fetch origin main
           git reset --hard origin/main
 
+      # 4. Update submodule to LATEST commit from its main branch
       - name: Update submodule pointer
-        run: git submodule update --remote
-
-      - name: Stage submodule changes
-        run: git add .
-
-      - name: Commit submodule pointer changes if any
         run: |
+          git submodule update --init --remote --checkout-branch=main
+          cd aisgraph
+          git checkout main  # Explicitly ensure correct branch
+
+      # 5. Commit and push changes
+      - name: Stage and commit submodule update
+        run: |
+          git add .
           if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "Update submodule pointer to latest commit from aisgraph"
           else
-            echo "No submodule updates detected."
+            echo "No changes to commit"
             exit 0
           fi
 
-      - name: Push changes to remote
+      - name: Force-push update
         run: git push origin HEAD:main --force-with-lease
