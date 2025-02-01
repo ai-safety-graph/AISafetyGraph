@@ -4,48 +4,42 @@ on:
   repository_dispatch:
     types: [submodule-updated]
 
+concurrency:
+  group: update-submodule
+  cancel-in-progress: true
+
 jobs:
   update-submodule:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout using a PAT with write permissions
-      - name: Checkout main repository with full history and submodules
-        uses: actions/checkout@v3
+      - name: Checkout main repo (PAT authenticated)
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MAIN_REPO_PAT }}  # Changed to PAT
+          token: ${{ secrets.MAIN_REPO_PAT }}
           submodules: recursive
           fetch-depth: 0
 
-      # 2. Explicitly configure Git credentials for subsequent operations
-      - name: Configure Git credentials
+      - name: Configure Git identity
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.MAIN_REPO_PAT }}@github.com/ai-safety-graph/AISafetyGraph.git
 
-      # 3. Force-synchronize with remote
-      - name: Hard reset to remote main
+      - name: Atomic synchronization
         run: |
-          git fetch origin main
+          # Pull latest changes and reset any accidental modifications
+          git fetch --prune
           git reset --hard origin/main
+          git clean -ffdx
 
-      # 4. Update submodule to LATEST commit from its main branch
-      - name: Update submodule pointer
-        run: |
-          git submodule update --init --remote --checkout-branch=main
-          cd aisgraph
-          git checkout main  # Explicitly ensure correct branch
+          # Update submodule to LATEST COMMIT from its main branch
+          git submodule update --init --remote --force
+          git add aisgraph
 
-      # 5. Commit and push changes
-      - name: Stage and commit submodule update
-        run: |
-          git add .
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update submodule pointer to latest commit from aisgraph"
+          # Commit only if submodule changed
+          if ! git diff --quiet --exit-code -- aisgraph; then
+            git commit -m "Update submodule pointer to $(git -C aisgraph rev-parse --short HEAD)"
+            git push origin HEAD:main --force-with-lease
           else
-            echo "No changes to commit"
-            exit 0
+            echo "No submodule changes detected"
           fi
-
-      - name: Force-push update
-        run: git push origin HEAD:main --force-with-lease
