@@ -7,33 +7,34 @@ on:
 jobs:
   update-submodule:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout main repository with full history and submodules
-        uses: actions/checkout@v3
+      - name: Checkout main repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          submodules: recursive
           fetch-depth: 0
-
-      - name: Update submodule pointer
-        run: git submodule update --remote
-
-      - name: Stage submodule changes
-        run: git add .
-
-      - name: Commit submodule pointer changes if any
+          
+      - name: Configure Git
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "Update submodule pointer to latest commit from aisgraph"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+      - name: Update submodule
+        run: |
+          # Initialize and update submodule
+          git submodule update --init
+          
+          # Update submodule to latest commit
+          git submodule update --remote
+          
+          # If there are changes, commit and push them
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add .
+            git commit -m "chore: Update aisgraph submodule to latest commit"
+            git pull --rebase origin ${{ github.event.repository.default_branch }}
+            git push origin ${{ github.event.repository.default_branch }}
           else
-            echo "No submodule updates detected."
-            exit 0
+            echo "No changes to commit"
           fi
-
-      - name: Rebase local branch onto remote changes
-        run: git pull --rebase origin ${{ github.event.repository.default_branch }}
-
-      - name: Push changes to remote
-        run: git push origin HEAD:${{ github.event.repository.default_branch }}
