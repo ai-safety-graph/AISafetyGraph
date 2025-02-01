@@ -17,6 +17,9 @@ jobs:
       - name: Update submodule pointer
         run: git submodule update --remote
 
+      - name: Pull latest changes from remote
+        run: git pull --rebase origin ${{ github.event.repository.default_branch }}
+
       - name: Commit and push submodule pointer changes
         run: |
           if [ -n "$(git status --porcelain)" ]; then
