@@ -89,7 +89,7 @@ Improvements:
 
 <!-- LINK GROUP -->
 
-[live-gh-pages]: https://ai-safety-graph.github.io/AISafetyGraph/
+[live-gh-pages]: https://alignmentgraph.com
 [discord-link]: https://discord.gg/skqQ8y4quR
 [discord-shield-badge]: https://img.shields.io/discord/1275110552661659658?style=for-the-badge&logo=discord&logoColor=white&label=discord&labelColor=black
 [live-demo-badge]: https://img.shields.io/badge/Live%20Demo-Visit-brightgreen?style=for-the-badge&logo=web&logoColor=white&labelColor=black
