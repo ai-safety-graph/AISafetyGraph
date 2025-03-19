@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main repo (PAT authenticated)
+      - name: Checkout main repo with submodules
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.MAIN_REPO_PAT }}
@@ -26,22 +26,19 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.MAIN_REPO_PAT }}@github.com/ai-safety-graph/AISafetyGraph.git
 
-      - name: Atomic synchronization
+      - name: Update submodule to latest commit
         run: |
-          # Pull latest changes and reset any accidental modifications
           git fetch --prune
           git reset --hard origin/main
-          git clean -ffdx
-
-          # Update submodule to LATEST COMMIT from its main branch
           git submodule update --init --remote --force
-          git add aisgraph
 
-          # Commit only if submodule changed
-          if ! git diff --quiet --exit-code -- aisgraph; then
+      - name: Commit and Push changes if submodule updated
+        run: |
+          if [[ $(git status --porcelain aisgraph) ]]; then
+            git add aisgraph
             git commit -m "Update submodule pointer to $(git -C aisgraph rev-parse --short HEAD)"
-            git pull --rebase
+            git pull --rebase origin main
             git push origin HEAD:main --force-with-lease
           else
-            echo "No submodule changes detected"
+            echo "No submodule changes detected."
           fi
