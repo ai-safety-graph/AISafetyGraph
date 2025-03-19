@@ -34,9 +34,9 @@ jobs:
 
       - name: Commit and Push changes if submodule updated
         run: |
-          if [[ $(git status --porcelain aisgraph) ]]; then
-            git add aisgraph
-            git commit -m "Update submodule pointer to $(git -C aisgraph rev-parse --short HEAD)"
+          if [[ $(git status --porcelain aisgraph_quartz) ]]; then
+            git add aisgraph_quartz
+            git commit -m "Update submodule pointer to $(git -C aisgraph_quartz rev-parse --short HEAD)"
             git pull --rebase origin main
             git push origin HEAD:main --force-with-lease
           else
