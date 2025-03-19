@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  workflow_run:
+    workflows: ["Update Submodule Pointer"]
+    types:
+      - completed
+    branches:
+      - main
  
 permissions:
   contents: read
